@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  20 APR 2023 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  21 APR 2023 12:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -420,20 +420,118 @@ File: imgs/interger-difference.jpeg Graphic file (type jpg)
 <use imgs/interger-difference.jpeg>
 Package pdftex.def Info: imgs/interger-difference.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 352.0204pt x 164.06538pt.
- [3 <./imgs/interger-difference.jpeg>] (./final-review.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+
+ []
+
+<imgs/superposition-example.jpeg, id=35, 1595.9625pt x 1503.6175pt>
+File: imgs/superposition-example.jpeg Graphic file (type jpg)
+<use imgs/superposition-example.jpeg>
+Package pdftex.def Info: imgs/superposition-example.jpeg  used on input line 75.
+(pdftex.def)             Requested size: 319.18684pt x 300.71817pt.
+[3 <./imgs/interger-difference.jpeg> <./imgs/superposition-example.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+<imgs/standing-wave-diagram.jpeg, id=42, 1488.56125pt x 571.13374pt>
+File: imgs/standing-wave-diagram.jpeg Graphic file (type jpg)
+<use imgs/standing-wave-diagram.jpeg>
+Package pdftex.def Info: imgs/standing-wave-diagram.jpeg  used on input line 96.
+(pdftex.def)             Requested size: 297.70697pt x 114.22472pt.
+<imgs/standing-wave-with-nodes.jpeg, id=44, 1472.50125pt x 893.3375pt>
+File: imgs/standing-wave-with-nodes.jpeg Graphic file (type jpg)
+<use imgs/standing-wave-with-nodes.jpeg>
+Package pdftex.def Info: imgs/standing-wave-with-nodes.jpeg  used on input line 102.
+(pdftex.def)             Requested size: 220.86566pt x 133.99484pt.
+[4 <./imgs/standing-wave-diagram.jpeg> <./imgs/standing-wave-with-nodes.jpeg>]
+<imgs/book-standing-wave-diagram.png, id=51, 617.30624pt x 298.11375pt>
+File: imgs/book-standing-wave-diagram.png Graphic file (type png)
+<use imgs/book-standing-wave-diagram.png>
+Package pdftex.def Info: imgs/book-standing-wave-diagram.png  used on input line 108.
+(pdftex.def)             Requested size: 462.97855pt x 223.58476pt.
+<imgs/standing-wave-for-lazer.png, id=53, 704.6325pt x 94.3525pt>
+File: imgs/standing-wave-for-lazer.png Graphic file (type png)
+<use imgs/standing-wave-for-lazer.png>
+Package pdftex.def Info: imgs/standing-wave-for-lazer.png  used on input line 122.
+(pdftex.def)             Requested size: 528.4731pt x 70.76418pt.
+
+Overfull \hbox (58.71808pt too wide) in paragraph at lines 122--123
+ [] 
+ []
+
+[5 <./imgs/book-standing-wave-diagram.png> <./imgs/standing-wave-for-lazer.png>]
+<imgs/cavity-example.jpeg, id=63, 1596.96625pt x 1673.25125pt>
+File: imgs/cavity-example.jpeg Graphic file (type jpg)
+<use imgs/cavity-example.jpeg>
+Package pdftex.def Info: imgs/cavity-example.jpeg  used on input line 159.
+(pdftex.def)             Requested size: 319.38759pt x 334.64432pt.
+ [6 <./imgs/cavity-example.jpeg>]
+<imgs/cavity-example-cont.jpeg, id=69, 1572.87625pt x 1694.33pt>
+File: imgs/cavity-example-cont.jpeg Graphic file (type jpg)
+<use imgs/cavity-example-cont.jpeg>
+Package pdftex.def Info: imgs/cavity-example-cont.jpeg  used on input line 165.
+(pdftex.def)             Requested size: 314.56967pt x 338.86pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+[7 <./imgs/cavity-example-cont.jpeg>] (./final-review.aux) ) 
 Here is how much of TeX's memory you used:
- 7139 strings out of 478268
- 130935 string characters out of 5846347
- 474954 words of memory out of 5000000
- 25233 multiletter control sequences out of 15000+600000
+ 7188 strings out of 478268
+ 132624 string characters out of 5846347
+ 475954 words of memory out of 5000000
+ 25275 multiletter control sequences out of 15000+600000
  472552 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,5n,77p,526b,181s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on final-review.pdf (3 pages, 879062 bytes).
+ 74i,6n,77p,530b,181s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on final-review.pdf (7 pages, 4110238 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

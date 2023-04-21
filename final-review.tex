@@ -63,6 +63,114 @@ If we keep shifting to the right by an interger value, we will keep on getting c
     \includegraphics*[scale = .35]{imgs/interger-difference.jpeg}
 \end{center}
 
+Now let's try an example.\\ \\
+\textbf{Example:} \\ \\ 
+Determine the result of the superposition of the following harmonic waves:
+\textit{Note: $\frac{\pi}{3}$ is the phase shift, $\omega$ is the frequency.}
+\[E_1 = 7 \cos(\frac{\pi}{3} - \omega t), E_2 = 12 \sin(\frac{\pi}{4} - \omega t), \text{, and } E_3 = 20 \cos(\frac{\pi}{5} - \omega t)\]
+
+The first thing we need to do is make all the phase angles consistent. We do this by making them all the same trig function.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/superposition-example.jpeg}
+\end{center}
+
+Now that we have the amplitude, lets het the phase angle. We can achieve this by 
+\[\tan(\alpha) = \frac{9.33}{28.165},\qquad \alpha = 0.32\text{rad}\]
+
+Therefore, the resulting wave is 
+
+\[\boxed{E_R = 29.67 \cos(0.32 - \omega t)} \]
+
+\textit{Note: We "got rid" of $\omega$ and $t$ from the calculations because we are taking a screen shot of the waves and finding their superposition.}
+\\ \\ 
+\question{Explain the properties of standing waves and of the modes of a cavity}
+
+The definition of a \textbf{standing wave} is when we confine a wave in a medium that has boundaries, and then this wave will reflect at the boundary, and the wave will overlap with itself. \\\\
+
+The reason why we care about these \textbf{standing waves} is that they select preferred wavelengths ($\lambda$), and frequency $\omega$, and this wave becomes dominant in the medium. \\\\
+
+Lets think of a an example, when we pluck a guitar string it oscillates, and this is true for waves! So, when we plunk this string it will hit the end of a medium, lets call this a node, and when the wave reaches the node it will reflect back on itself.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/standing-wave-diagram.jpeg}
+\end{center}
+
+Now, lets analyze what this would be if we have a wavelength inside of this cavity. We see that we have destructive interference at these nodes, and we have constructive interference between these nodes.
+
+\begin{center}
+    \includegraphics*[scale = .15]{imgs/standing-wave-with-nodes.jpeg}
+\end{center}
+
+\newpage
+
+\begin{center}
+    \includegraphics*[scale = .75]{imgs/book-standing-wave-diagram.png}
+\end{center}
+
+Above is a diagram pulled from the book to show us the equation of the resulting \textbf{standing wave}. We see that \textbf{constructive interference} happens at $t = \frac{T}{2}, \frac{3T}{2}, \dots$, and we get \textbf{destructive interference} at $t = 0, T, 2T, \dots$ \textit{Note: $\varphi_R$ is a phase shift of $\pi$ upon reflection. Also, where constructive interference happens, this is called an anti-node.}
+
+\newblock
+
+Let's say that the phase shift due to reflection ($\varphi_R$) is not equal to $\pi$, then the node position is shift, but the nodes are still separated by half of a wavelength ($\frac{\lambda}{2}$), and the anti-nodes are shifted too! This is still a standing wave.
+
+\newblock
+
+An important idea behind \textbf{standing waves} is that they transmit no energy, unlike traveling waves. Another example of standing waves are lasers! Lasers use standing waves, by forming a cavity between two mirrors to send a wave back and forth like the image below.
+
+\begin{center}
+    \includegraphics*[scale = .75]{imgs/standing-wave-for-lazer.png}
+\end{center}
+
+Looking at the diagram above we see that only wavelengths with descrete values like a inteeger number of half-wavelengths will fit into the distance between the two mirrors, which we will label $d$.
+
+\[d = m \bigg( \frac{\lambda\cdot m}{2} \bigg)\]
+
+\newpage
+
+We can also find the the wavelength of the standing wave modes by: 
+
+\[\lambda_m = \frac{2d}{m}\]
+
+Also, we can find the frequencies of the standing wave modes ($\nu_m$):
+
+\[\nu_m = \frac{v}{\lambda} \to \text{ we know that the wave is light so $v = c$, so}\]
+\[ \nu_m = \frac{v}{\lambda} = \frac{c}{\lambda} = \frac{c\cdot m}{2d}\]
+
+Note that these equations are only valid for cavities with plane mirrors.
+
+\textbf{Example} 
+\\ \newblock
+A certain He-Ne laser cavity of the type shown in Figure 6 has a mirror
+separation of 30 cm. The helium-neon laser gain medium is capable of
+supporting laser light of wavelengths in the range from $\lambda_1 = 632.8$nm to $\lambda_2 = 632.802$nm, find:
+\\ \newblock
+a. The approximate number $m$ of half-wavelengths that fit into the cavity
+
+b. The range of frequencies supported by the helium-neon gain medium
+
+c. The difference in the frequencies of adjacent standing wave modes of
+the cavity
+
+d. The number of standing wave modes that will likely be present in the
+laser output
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/cavity-example.jpeg}
+\end{center}
+
+\newpage
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/cavity-example-cont.jpeg}
+\end{center}
+
+\question{Determine the beat frequency of two waves}
+
+
+
+
+
 
 
 \end{document}
