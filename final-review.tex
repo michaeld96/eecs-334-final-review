@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \usepackage[top = 1in,
             left = 1in,
             right = 1in,
@@ -29,6 +29,40 @@ Lets define coherent waves; two waves sources are coherent if their \textbf{freq
 \end{center}
 
 Lastly, the definition of incoherent waves is two or more waves that have don't have the same frequency and phase.
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/phase-difference.png}
+\end{center}
+
+\newpage 
+
+So, what this statement is asking us is to add these two waves, which we can do because of superposition! Superposition is the fact that if we have $\lambda_1$ and $\lambda_2$ we can add them together. If they interfere \textbf{constructively} then they will add into a bigger wave than the original, if interfere \textbf{destructive}, then the resulting wave is smaller.
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/superposition.png}
+\end{center}
+We can say that the resulting wave due to the two path differences is
+\[E_R = E_1 + E_2 = E_{01}\cos(\alpha_1 - wt) + E_{02}\cos(\alpha_2 - wt)\]
+\begin{itemize}
+    \item If $(\alpha_2 - \alpha_1) = m2\pi$, where $m$ is an integer, then the waves are in-step (the peaks and the troughs arrive at a point $P$ at the same time). This is \textbf{constructive interference}.
+    \item $(\alpha_2 - \alpha_1) = (2m+1)\pi$, then the waves are out of step, resulting in \textbf{destructive interference}.
+\end{itemize}
+
+\textit{Note: When you hear out of phase, it usually means the wave source is shifted by $\pi$.}
+\\ \\
+A real life example of destructive interference. When someone is wearing noise cancelling headphones, the noise coming in has its own wave, but the headphones will send a single back cancelling out the the original wave. This is using the idea of two waves being completely destructive!
+\begin{center}
+    \includegraphics*[scale = .25]{imgs/wavelength-fact.jpeg}
+\end{center}
+
+\newpage
+
+If we keep shifting to the right by an interger value, we will keep on getting constructive interference! Look at the diagram below. Wavelength 2 is red and wavelength 1 is black.
+
+\begin{center}
+    \includegraphics*[scale = .35]{imgs/interger-difference.jpeg}
+\end{center}
+
 
 
 \end{document}
