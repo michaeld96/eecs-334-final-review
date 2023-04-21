@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[top = 1in,
+            left = 1in,
+            right = 1in,
+            bottom = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{stackengine}
+\usepackage{amsfonts}
+\usepackage{minted}
+\usepackage{graphicx}
+\newcounter{counter}
+\setcounter{counter}{1}
+\newcommand*{\question}[1]{
+            \textbf{\thecounter. #1} \hfill
+            \addtocounter{counter}{1}
+            \\ \\
+            }
+\setlength\parindent{0pt}
+\begin{document}
+\begin{center}
+    \section*{EECS 334 Final Review}
+\end{center}
+\question{Compute the resultant irradiance of coherent and incoherent superposition of waves of the same frequency.}
+First lets define irradiance. Irradiance is the flux of radiant energy unit area (normal to the direction of flow of radiant energy through a medium), or more colloquially, the fact of shining brightly. Basically, irradiance is a way to measure the energy from light that hits a certain area for a certain amount of time.
+\\ \\ 
+Lets define coherent waves; two waves sources are coherent if their \textbf{frequency} and \textbf{waveform} are identical.
+\begin{center}
+    \includegraphics*[scale = 1]{imgs/coherent-wave.png}    
+\end{center}
+
+Lastly, the definition of incoherent waves is two or more waves that have don't have the same frequency and phase.
+
+
+\end{document}
