@@ -10,10 +10,15 @@
 \usepackage{graphicx}
 \newcounter{counter}
 \setcounter{counter}{1}
+\newcommand*{\lo}[1]{
+    \textbf{* #1} \newline
+}
 \newcommand*{\question}[1]{
             \textbf{\thecounter. #1} \hfill
             \addtocounter{counter}{1}
-            \\ \\
+            
+            \newblock
+
             }
 \setlength\parindent{0pt}
 \begin{document}
@@ -21,8 +26,6 @@
     \section*{EECS 334 Final Review}
 \end{center}
 \question{Compute the resultant irradiance of coherent and incoherent superposition of waves of the same frequency.}
-First lets define irradiance. Irradiance is the flux of radiant energy unit area (normal to the direction of flow of radiant energy through a medium), or more colloquially, the fact of shining brightly. Basically, irradiance is a way to measure the energy from light that hits a certain area for a certain amount of time.
-\\ \\ 
 Lets define coherent waves; two waves sources are coherent if their \textbf{frequency} and \textbf{waveform} are identical.
 \begin{center}
     \includegraphics*[scale = 1]{imgs/coherent-wave.png}    
@@ -49,7 +52,9 @@ We can say that the resulting wave due to the two path differences is
 \end{itemize}
 
 \textit{Note: When you hear out of phase, it usually means the wave source is shifted by $\pi$.}
-\\ \\
+
+\newblock
+
 A real life example of destructive interference. When someone is wearing noise cancelling headphones, the noise coming in has its own wave, but the headphones will send a single back cancelling out the the original wave. This is using the idea of two waves being completely destructive!
 \begin{center}
     \includegraphics*[scale = .25]{imgs/wavelength-fact.jpeg}
@@ -57,7 +62,7 @@ A real life example of destructive interference. When someone is wearing noise c
 
 \newpage
 
-If we keep shifting to the right by an interger value, we will keep on getting constructive interference! Look at the diagram below. Wavelength 2 is red and wavelength 1 is black.
+If we keep shifting to the right by an integer value, we will keep on getting constructive interference! Look at the diagram below. Wavelength 2 is red and wavelength 1 is black.
 
 \begin{center}
     \includegraphics*[scale = .35]{imgs/interger-difference.jpeg}
@@ -83,12 +88,27 @@ Therefore, the resulting wave is
 \[\boxed{E_R = 29.67 \cos(0.32 - \omega t)} \]
 
 \textit{Note: We "got rid" of $\omega$ and $t$ from the calculations because we are taking a screen shot of the waves and finding their superposition.}
-\\ \\ 
+
+\newblock
+
+Now, let's talk about \textbf{Random} and \textbf{Coherent sources}. For $N$ randomly phased (meaning $\varphi$) of equal amplitude and frequency we can find the irradiance by using 
+\[E_0^2 = N\cdot E_0^2\]
+
+Let's say the $N$ sources are coherent (peaks and troughs match) and in-phase so that all $\alpha_i$ are equal and amplitudes are equal, then we can find irradiance by 
+
+\[E_0^2 = N^2 \cdot E_0^2\]
+
+\newblock
+
 \question{Explain the properties of standing waves and of the modes of a cavity}
 
-The definition of a \textbf{standing wave} is when we confine a wave in a medium that has boundaries, and then this wave will reflect at the boundary, and the wave will overlap with itself. \\\\
+The definition of a \textbf{standing wave} is when we confine a wave in a medium that has boundaries, and then this wave will reflect at the boundary, and the wave will overlap with itself. 
 
-The reason why we care about these \textbf{standing waves} is that they select preferred wavelengths ($\lambda$), and frequency $\omega$, and this wave becomes dominant in the medium. \\\\
+\newblock
+
+The reason why we care about these \textbf{standing waves} is that they select preferred wavelengths ($\lambda$), and frequency $\omega$, and this wave becomes dominant in the medium. 
+
+\newblock
 
 Lets think of a an example, when we pluck a guitar string it oscillates, and this is true for waves! So, when we plunk this string it will hit the end of a medium, lets call this a node, and when the wave reaches the node it will reflect back on itself.
 
@@ -164,8 +184,451 @@ laser output
 \begin{center}
     \includegraphics*[scale = .2]{imgs/cavity-example-cont.jpeg}
 \end{center}
+\textbf{LEARNING OUTCOMES:} \\ 
+\fbox
+{
+    \begin{minipage}{\linewidth}
+    1. Forward and a reverse wave exist, which will take on the following form of
+    \[E_R = A(x)\cos(\omega t)\]
+    where $A(x)$ is the amplitude and $\omega$ is the frequency.
 
-\question{Determine the beat frequency of two waves}
+    \newblock
+
+    2. The equation for a standing wave is 
+    \[2E_0 \sin(kx)\]
+
+    3. Nodes where $A(x) = 0$ or at $x = m (\frac{\lambda}{2})$
+    \end{minipage}
+}
+
+\newpage
+
+\question{Determine the beat frequency of two waves.}
+
+\textbf{Beat Frequency} is when we have two waves of different frequency ($\omega$) and wavelength ($\lambda$), and find the difference between their frequencies:
+
+\[\omega_b = 2 \cdot \omega_g = 2 \frac{(\omega_2 - \omega_1)}{2} = \omega_2 - \omega_1\]
+
+\begin{center}
+    \includegraphics*[scale = .25]{imgs/book-example-beat-frequency.png}
+\end{center}
+We can see that the resulting wave makes this odd wave. Beat frequency looks like it starts of constructive, and then it will become destructive with the other wave, and it will oscillate between these two stages. (Also, this leads to pulses of energy!)
+
+\newblock
+
+\textbf{LEARNING OUTCOMES:} \\ 
+\fbox
+{
+    \begin{minipage}{\linewidth}
+        
+    
+    1. Lets say we have two wavelengths $E_1$ and $E_2$ where
+    \[E_1 = E_0\cos(k_1x - \omega t) \qquad E_2 = E_0 \cos(k_2x - wt)\]
+    These two waves have a comparable amplitude, but different wave frequencies ($\nu$) combine and produce 
+    \[E_R = 2E_0\cos(k_px - \omega_pt)\cos(k_gx-\omega_gt)\]
+    \[w_p = \frac{\omega_1 + \omega_2}{2} \qquad k_p = \frac{k_1 + k_2}{2} \]
+    \[w_g = \frac{\omega_1 - \omega_2}{2} \qquad k_g = \frac{k_1 - k_2}{2} \]
+    2. The group frequency and phase will be smaller than the velocity phase's frequency and phase. $\omega_p >> \omega_g$
+    \end{minipage}
+}
+
+\newpage
+
+\question{Determine phase and group velocities of wave packets in dispersive media.}
+
+It's good to note that all frequencies in a vacuum travel at a velocity $c$. Also, transparent media can little absorption meaning there is dispersion and different frequencies therefore travel at different speeds and changes the relative phase shifts of the waves as the wave is propagating along.
+
+\newblock
+
+\textbf{Phase velocity} of a wave is the rate at which the wave propagates in any medium. This is the phase of any one frequency component of the wave travels.
+
+\[v_p \approx \frac{\omega}{k} \qquad \text{where $k$ is the phase constant, } k = \frac{2\pi}{\lambda}\]
+
+
+\textbf{Group velocity} is the velocity of the envelope, and the envelope is defined on the page in the diagram.
+\[v_g \approx \frac{d\omega}{dk}\]
+
+In a non-dispersive medium (a vacuum), the velocities don't depend on frequency, so that means the velocity of the phase is equal to the velocity of the group, $v_p = v_g$.
+
+\newblock
+
+Now in a dispersive medium, the phase velocity is 
+
+\[v_p = \frac{c}{n}\]
+
+where $c$ is the speed of light, and $n$ is the refractive index of the medium, but the refractive index is a function of wavelength($\lambda$) or phase($k$).
+
+For group velocity in a dispersive medium, we have
+\[v_g = v_p\bigg[ 1 + \frac{\lambda}{n}\cdot \bigg(\frac{dn}{d\lambda}\bigg)\bigg], \qquad \text{ where $\frac{dn}{d\lambda}$ is dispersion.}\]
+
+In regions of normal dispersion, $\frac{dn}{d\lambda} < 0$ and $v_g < v_p$, The group velocity determines the speed at which energy is transmitted.
+
+\textit{Note: \textbf{Dispersion} is when waves of different frequencies travel with slightly different speeds through a given medium.}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/envolope-example.png}
+\end{center}
+
+\newpage
+
+\textbf{Example}
+
+For wavelengths in the visible spectrum, the index of refraction of a certain type of crown glass can be approximated by the relation $n(\lambda) = 1.5255 + \frac{4825nm^2}{\lambda^2}$ \\
+a. Find the index of refraction of this glass for 400 nm light, 500 nm light,
+and 700 nm light. \\
+b. Find the phase velocity, in this glass, for a pulse with frequency components centered around 500 nm. \\
+c. Find the group velocity, in this glass, for a pulse with frequency components centered around 500 nm.
+
+\newblock
+
+\begin{center}
+    \includegraphics*[scale = .25]{imgs/example-with-phase-and-group.jpeg}
+\end{center}
+\newpage 
+\textbf{LEARNING OUTCOMES:} \\ 
+\fbox
+{
+    \begin{minipage}{\linewidth}
+        1. Dispersion is caused by EM waves with different frequencies ($\omega$) and travel at a different velocity ($v$) in a medium.
+
+        \newblock
+
+        2. Phase velocity is the velocity of the harmonic wave constituting the signal.
+
+        \newblock
+        
+        3. Group velocity is the velocity that positions of the maximal constructive interference propagate at.
+
+        \newblock
+        
+        4. The carrier wave (the phase velocity) has a higher velocity than the group (can also be faster than light?).
+
+        5. Phase velocity is \[v_p = \frac{\omega_1 + \omega_2}{k_1 + k_2} \approx \frac{\omega}{k}\]
+
+        6. Envelope Velocity which is just the group velocity is 
+        \[v_g = \frac{\omega_1 - \omega_2}{k_1 - k_2} \approx \frac{d\omega}{dk}\]
+
+        7. The relationship between group velocity and phase velocity is 
+        \[v_g = v_p+k\bigg(\frac{dv_p}{dk}\bigg)\]
+        In a non-dispersive medium $\frac{dv_p}{dk} = 0$ because the phase and group velocities are equal because they're in a vacuum.
+
+        \newblock
+
+        8. In a dispersive medium, $v_p = \frac{c}{n}$ where $n = n(k)$, then
+        \[\frac{dv_p}{dk} = \frac{d}{dk}\bigg(\frac{c}{n}\bigg) = \frac{-c}{n^2} \bigg(\frac{dn}{dk}\bigg)\]
+        and 
+        \[v_g = v_p\bigg[ 1 + \frac{\lambda}{n}\cdot \bigg(\frac{dn}{d\lambda}\bigg)\bigg], \qquad \text{ where $\frac{dn}{d\lambda}$ is dispersion.}\]
+        9. Normal dispersion, $\frac{dn}{d\lambda} < 0$ and $v_g < v_p$.
+
+    \end{minipage}
+}
+
+\newpage
+
+\question{Compute the interference patterns formed by wavefront division (Young’s experiment) and
+by amplitude division}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/superposition-irradiance.png}
+\end{center}
+
+Lets say we have two plane waves and they combine to produce a disterbance at point $P$, and because of the principle of superposition we get that $E_R = E_1 + E_2$. If we calculate the irradiance at point $P$ we get 
+\[I = I_1 + I_2 + I_{12}, \qquad \text{where $I_{12}$ is the interference term.}\]
+
+We then notice that when these two fields are parallel there is no phase difference. We will define the phase difference between two beams of light as 
+\[\delta = k\underbrace{(s_2 - s_1)}_{\text{optical distance}} + \underbrace{\phi_2 - \phi_1}_{\text{phase difference}}\]
+
+The interference term is expanded to be \[I_{12} = 2\sqrt{I_1 \cdot I_2} \langle \cos(\delta) \rangle \]
+
+And for mutually coherent beams, since they have the same phase difference
+\[I = I_1 + I_2, \qquad \text{because } \delta = 0^\circ\]
+
+\textbf{* Mutually coherent beams produced by splitting a laser beam recombine at detector:} \\
+So a laser beam split (2 beams from the same source) then recombined at the detector means we have a time-average that is not zero.
+
+\newblock
+
+\lo{Phase difference}
+For the two beams mentioned above the phase difference 
+\[\phi_2(t) - \phi_1(t) = 0\]
+So providing the difference between the two paths, $\delta t$ is shorter than the coherence length, where the coherence time of the source is 
+\[t_c = \frac{1}{\delta \nu}\]
+
+
+
+This means
+\[\phi_2(t) = \phi_1(t + \delta t) \approx 0\]
+
+\lo{For mutally coherent beams:}
+The intensity is \[I = I_1 + I_2 + 2\sqrt{I_1I_2}\cdot \cos(\delta)\]
+
+
+When $\cos(\delta)$ oscillates the interference fringes are $I_{max}$ and $I_{min}$ where 
+\[\text{Constructive Interference:} \qquad I_1 + I_2 + 2 \sqrt{I_1I_2} \qquad \text{when } \delta = 2m\pi\]
+\[\text{Destrutive Interference:} \qquad I_1 + I_2 - 2 \sqrt{I_1I_2} \qquad \text{when } \delta = (2m+1)\pi\]
+
+\begin{center}
+    \includegraphics*[scale = 1]{imgs/min-max-intensity.png}
+\end{center}
+
+Now these fringes show better contrast. A measure of fringe contrast is called visibility, with the values from 0 to 1, its given by
+\[\text{visiility} = \frac{I_{max}-I_{min}}{I_{max} + I_{min}}\]
+
+And for the best contrast is when the intensities equal each other ($I_1 = I_2$)
+
+\newpage 
+
+
+
+
+\begin{center}
+    \includegraphics*[scale = .25]{imgs/wavefront.jpeg}
+\end{center}
+
+Let's look at the image above. We will send in a wavelength (it's in 1D) and when this wavelength hits these slits, diffraction occurs (remember that diffraction is when waves are spread out as a result of passing through a narrow aperture). The result of this wave diffraction is overlapping waves, and at these intersections we will get constructive, destructive, and some blend of the two.
+
+\newblock
+
+Now let's look at a better diagram from the book.
+
+\newpage
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/book-young-experiment.png}
+\end{center}
+
+We see that $s_1$ and $s_2$ are the path lengths, and this shows how long it took for the light to get to that certain point on the film. Where these to paths meet is where there is going to constructive or destructive interference. 
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/film-young.png}
+\end{center}
+
+From the image above is the "order." Say we send light out from the experiment in the Young's diagram, the strongest intensity would happen at the center where $m=0$, and then at every half-wavelength there will be destructive interference ($m + \frac{1}{2}$).
+
+\newblock
+
+For \textbf{constructive interference} the waves are in phase at, lets say point $P$.
+
+\[m \cdot \lambda = a \cdot \sin(\theta)\]
+
+For \textbf{Destrutive interference} the waves will have a path difference out of phase by $\frac{\lambda}{2}$.
+
+\[(m + \frac{1}{2})\lambda = a \cdot \sin(\theta)\]
+
+\newpage
+
+Constructive intergerence forms bright fringes on the film at
+\[y_m \approx \frac{m \cdot \lambda \cdot L}{a}\]
+where $m$ is the order, $L$ is the slit distance from the film, and $a$ is the slit separation.
+
+\newblock
+
+\textbf{Example:} \\ 
+Laser light passes through two identical and parallel slits, 0.2 mm apart. Interference fringes are seen on a screen 1 m away. Interference maxima are
+separated by 3.29 mm. What is the wavelength of the light? How does the irradiance at the screen vary, if the contribution of one slit alone is $I_0$?
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/double-split-example.jpeg}
+\end{center}
+
+\newblock
+
+\textbf{LEARNING OUTCOME}:
+
+\fbox{
+\begin{minipage}{\linewidth}
+The separation between the maxima on the film for each bright spot is 
+\[\Delta y = \frac{\lambda \cdot L}{a}\]
+
+\textbf{Wavefront division} is when the wavelengths hit the slits and detraction of the wave happens at the slits.
+
+\newblock
+
+Intensity of the interference pattern on the film is given by 
+\[I = 4 \cdot I_0 \cos^2\bigg(\frac{\pi \cdot a \cdot y}{\lambda \cdot L}\bigg)\]
+\end{minipage}
+}
+
+\newpage
+
+\lo{Analyze the two-beam interference
+fringes formed by thin films and compute the interference
+patterns formed by Amplitude Division}
+
+Let's say we have some oil on top of water, and we see the colors on top. This is caused by thin film interference. Light comes in and get reflected from the top of the oil, but some of the light still gets transmitted and then it is reflected from water.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/thin-film-1.jpeg}
+\end{center}
+
+Let's call the path length difference $\Delta p$. If the path length difference is 
+\[\Delta p = 0, \lambda, 2\lambda, ..., m\lambda\, \qquad \text{then this is \textbf{constructive}.}\]
+\[\Delta p = \frac{\lambda}{2}, \frac{3\lambda}{2}, ..., (m+\frac{1}{2})\lambda \qquad \text{then this is \textbf{destructive}.}\]
+
+Now we have to consider when the wave will shift by $\pi$. Well, this only happends when our source's velocity is slower than the velocity of the medium. If we have the medium has a faster velocity than our source, THERE WILL BE A SHIFT! This fact is shown below.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/shift-thin-film.jpeg}
+\end{center}
+
+\newpage
+
+Now we may be questioning, what is the path length difference. The first wave gets reflected off a travels a certain distance, but the reflected material off of the substrait, traveled that extra bit (two times the thickness of the material). So that path length difference always going to be 
+\[\Delta p = 2n_ft\cos(\theta)\]
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/phase-shift-thin-film.jpeg}
+\end{center}
+
+Now say that we have $n_1 < n_2$ (the refractive index we are coming from has a lower refractive index then what we are going to), there there WILL be a $\pi$ shift upon reflection.
+
+\newblock
+
+If we are coming from a high refractive index and going toward a lower refractive index, then there will be NO phase shift.
+
+\newblock
+
+\textit{Note: When light enters a material with a higher refractive index, it will tend toward the normal.}
+
+\newblock
+
+Constructive interference: $\Delta p + \Delta r = m \lambda$
+
+Destructive interference: $\Delta p + \Delta r = (m + \frac{1}{2})\lambda$
+
+Note that $\Delta r$ is the path difference arising from the phase change on reflection. Thus, $\Delta r = \frac{\lambda}{2}$.
+
+\newblock
+
+\lo{Design an anti-reflection coating}
+
+When designing a anti-reflective coating, we need destructive interference. To achieve this we need the refractive indices of the film and substrate to get as close to equal amplitudes in the reflect beams. This equation gives us the refractive index that we want for anti-reflection:
+\[n_f = \sqrt{n_0 \cdot n_s} \qquad \text{where $n_f$ is the final reflective index, $n_0$ is what index we are coming from (usually air).}\]
+
+
+\lo{Explain quantitatively Newton's Rings}
+
+The optical path difference $\Delta p = 2n_ft\cos(\theta_t)$ varies even without variation in the angle of incidence. For a fixed $\theta$, $\Delta p$ will produce constructive and destructive interferences as the thickness of the wedges varies.
+
+\newblock
+
+When dealing with fringes of equal thickness we analyze them at normal incidence and we get 
+\[2n_ft + \Delta r = \begin{cases}
+    m\lambda & \text{Constructive (bright)} \\ 
+    (m+\frac{1}{2})\lambda &  \text{Destructive (dark)}
+\end{cases}\]
+
+\textit{Note: the $\Delta r$ is either $\frac{\lambda}{2}$ or 0 defending on whether there is or is not a relative phase shift of $\pi$ between the reflected rays from top and bottom surfaces of the film.}
+
+\newpage
+
+Newton's Rings: at the point $t = 0$, and path difference between the reflected rays is $\frac{\lambda}{2}$ give us $m=0$ for the order of destructive interference.
+
+\newblock
+
+We can find the curvature of the air film $R$, with knowing the values of $r_m$ (the radius of the $m$th order dark fringe), and the corresponding air-film thickness $t_m$.
+
+\[R = \frac{r_m^2+t_m^2}{2t_m}\]
+
+This equation will give us the radius of the $m$th dark ring.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/newton-ring-1.jpeg}
+\end{center}
+
+\lo{Analyze the two-beam interference fringes formed by thin films and compute the interference patterns formed by amplitude division Thin film thickness measurement}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/measure-film-thickness.png}
+\end{center}
+
+With the contraption above, this is used to measure film-thickness. For a film of thickness $d$, light at normal incidence, bright fringes when
+\[\Delta p + \Delta r = 2n_ft + \Delta r = m \lambda\] 
+
+Where $t$ represents the thickness of air at some point. 
+
+\newpage
+
+Air-film thickness changes by $\Delta t = d$, the order of interference $m$ changes accordingly, and we have 
+\[2\Delta t = 2d = (\Delta m)\lambda\] here we set $n =1$ for an air film.
+
+\newblock
+
+Increasing the air-film thickness $t$ by half of a wavelength $\frac{\lambda}{2}$ changes the order of any fringe by $\Delta m = 1$, that is the fringe pattern translates by one whole fringe. For a shift of fringes of magnitude $\Delta x$ the change in $m$ is given by $\Delta m = \frac{\Delta x}{x}$ resulting in 
+\[d = \bigg(\frac{\Delta x}{x}\bigg) \bigg(\frac{\lambda}{2}\bigg)\]
+
+where $x$ is a fringe spacing, and $\Delta x$ is a fringe shift, and $d$ is the film thickness.
+
+\lo{Explain the Stokes' Relation}
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/stokes-relation.jpeg}
+\end{center}
+
+Above we have a picture of a multiply reflected and transmitted beams in a parallel plate.There is a narrow beam of light, and amplitude $E_0$ and an angle of incidence $\theta_i$. The Fresnel coefficients are 
+\begin{itemize}
+    \item $r, t$ for external reflection and transmission.
+    \item $r', t'$ for internal reflect and transmission.
+\end{itemize}
+
+Two important equations are 
+\[tt' = 1 - r^2 \qquad and \qquad r = -r'\]
+
+\begin{center}
+    \includegraphics*[scale = .7]{imgs/stokes-relation.png}
+\end{center}
+
+\newpage
+
+\lo{Compute the transmitted and reflected irradiance in multiple-beam interference in a parallel plate}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/multibeam-eqs.png}
+\end{center}
+
+$I_R$ stands for the irradiance, and $I_T$ stands for transmitted irradiance.
+
+\newblock
+
+\lo{Explain quantitatively the use of the Michelson Interferometer}
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/michelson-infrometer.jpeg}
+\end{center}
+
+The Michelson Interferometer measures index of refraction. It produces, from the detector, concentric ring interference patterns. The dark fringes appear at (where $d$ is the mirror spacing.)
+\[2d\cos(\theta) = m\lambda\]
+
+\newpage
+
+\begin{center}
+    \includegraphics*[scale = 1]{imgs/ordering.png}
+\end{center}
+
+For convenience, we redefine the ordering as \[p = m_{max} - m = \frac{2d}{\lambda} - m\]
+
+Angular fringe separation in this case means,
+
+\[|\Delta \theta| = \frac{\lambda \Delta m}{2d\sin(\theta)}\]
+
+where $\Delta m$ is a small interval as the mirror spacing $d$ becomes smaller.
+
+\newblock
+
+The mirror translation of $\Delta d$ corresponds to 
+\[\Delta m = \frac{2 \Delta d}{\lambda}\]
+and this equation suggests an experimental way of either measuring $\lambda$ when $\Delta d$ is know or calibrating the micrometer translation screw when $\lambda$ is unknown.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
