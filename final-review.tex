@@ -619,6 +619,140 @@ The mirror translation of $\Delta d$ corresponds to
 \[\Delta m = \frac{2 \Delta d}{\lambda}\]
 and this equation suggests an experimental way of either measuring $\lambda$ when $\Delta d$ is know or calibrating the micrometer translation screw when $\lambda$ is unknown.
 
+\newpage
+
+\lo{Explain quantitatively the use of
+the Fabry-Perot Interferometer}
+
+\begin{center}
+    \includegraphics*[scale = 1]{imgs/fb-setup.png}
+\end{center}
+
+We shoot a beam of light and it hits these cavity that is two thick plates of glass with air between them. Inside of the cavity, light wil transmit through the glass, and some of it will reflect. Since it's a low $n$ to high $n$, the light inside of the cavity will encounter a phase shift and then it will hit the glass again making another transmission. Then the len will create a high resolution onto the film. All of these waves will have different amplitudes when hitting the film. The constructive interference makes the bright bands and the dark bands are from partial constructive interference. So, essentially there is multiple beam interference set-up using a cavity.
+
+Using $n_f = 1$ for air, the condition for brightness is 
+\[2d\cos(\theta_t) = m \lambda\]
+
+where $d$ is the distance between the mirrors (cavity) or $d$ is the spacing between the air layers?, and $\theta_t$ is the angle of transmission.
+
+The transmission through the caivty to be an Airy pattern is
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/airy-function.png}
+\end{center}
+
+A round trip inside the cavity it
+\[\delta = 2kd\]
+where $d$ is the distance between the mirrors in the cavity.
+
+\newblock
+
+The \textbf{reflection coefficient} of the mirrors is given by $r$ and this can help us find the coefficient of Finesse, where Finesse is just the fringe contrast. So Finesse is a parameter that characterize the sharpness and separation of the interference fringes or resonance peaks in the transmission or reflection spectrum. The Finesse is directly related to the reflectivity of the mirrors and the amount of light loss in the interferometer cavity. As $F$ incenses the transmission peaks narrow. Below is $F$ the \textbf{coefficient of Finesse}.
+
+\[F = \frac{4r^2}{(1-r^2)^2}\]
+
+\begin{center}
+    \includegraphics*[scale = .3]{imgs/transmission-peaks.png}
+\end{center}
+
+\textbf{Rant about Airy Disk}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/numerical-aperture.jpg}
+\end{center}
+
+An Airy disk and Airy pattern are descriptions of the best-focused spot of light that a perfect lens with a circular aperture can make, limited by the diffraction of light.
+
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/Airy-pattern.png}
+\end{center}
+
+\newpage
+
+\lo{Determine the finesse, the freespectral range, and the Q of a Fabry-Perot}
+
+\textbf{Finesse} is just the ratio of the separation between transmission peaks to the full-width at half maximum (FWHM) of the peaks.
+
+\[\mathcal{F} = \frac{\pi\sqrt{F}}{2} = \frac{\pi \cdot r}{1 - r^2}\]
+
+The phase separation between the adjacent transmittance peaks is called the \textit{free spectral range} (FSR) of the cavity $\delta_{fsr}$. And cavities with more highly reflecting mirrors have higher values for the finesse and so narrower transmittance peaks than do cavities with less highly reflecting mirrors. So, the \textbf{finesse} of a cavity is the ratio of the free spectral range of the cavity to the FWHM of the cavity transmittance peaks
+\[\mathcal{F} = \frac{2\pi}{2\delta_{1/2}} = \frac{\delta_{fsr}}{FWHM}\]
+where $\delta_{fsr}$ is the phase separation of the adjacent transmittance peaks.
+
+\begin{center}
+    \includegraphics*[scale = .6]{imgs/fwhm-t-diagram.png}
+\end{center}
+
+\lo{Determine the resolving power of an interferometer}
+
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/cavity-change-vs-trans.png} \\ 
+    Transmittance $T$ as a function of the change in cavity length $\Delta d$ for a
+monochromatic input field.
+\end{center}
+Changing the cavity length $d$ causes:
+\begin{itemize}
+    \item The cavity length change required to move from one transmittance peak to another is this a measure of the wavelength of a source. We use the equation below to calibrate the length change of the cavity in order to determine the difference in the wavelength of ttwo closely spaced wavelength components in the inputs of the cavity. 
+    \[d_{fsr} = d_{m+1} - d_{m} = \frac{\lambda}{2}\]
+    \item A common \textbf{Resolution Criterion} is that the minimum resolvable difference $\Delta d_{min}$ between the caity lengths associated with the centers of the peaks of tranmittance function of the two wavelength components is equal to the FWHM of the peaks. Doing this the crossover point of the two peaks will not be more than one-half of the maximum irrandiance of either peaks.
+    \[\Delta d \ge 2 \Delta d_{1/2} = \Delta d_{min}\]
+    \begin{center}
+        \includegraphics*[scale = .6]{imgs/resolution-creiterion.png}
+    \end{center}
+    \item The \textbf{resolving power} is the inverse of this ratio
+    \[\mathcal{R} = \frac{\lambda}{\Delta \lambda} = \frac{2d\mathcal{F}}{\lambda} = m \mathcal{F} \]
+    here $m = \frac{2d}{\lambda}$ is the mode number associated with the nominal wavelength $\lambda$ and the nominal cavity length $d$. (nominal meaning target?)
+\end{itemize}
+
+Now lets talk about \textbf{Variable-Input-Frequency Fabry-Perot Interferometer: change input frequency}
+\begin{itemize}
+    \item \textbf{Resonant frequencies}, refer to a specific frequencies of light that constructively interfere and produced high transmission of reflection peaks in the interferometer. Knowing that a round trip phase shift must be an integer multiple of $2\pi$, the condition ensure that the light beams interfere constructively after multiple reflections between the mirrors and forming resonance peaks in the transmission or reflection spectrum
+    \[\nu_m = \frac{mc}{2d}\]
+    \item If we assume that the refractive index of the material in the space between the cavity mirrors is $n=1$, then this mode of operation is the free spectral range of the interferometer is 
+    \[\nu_{fsr} = \nu_{m+1} - \nu{m} = \frac{c}{2d}\]
+    \begin{center}
+        \includegraphics*[scale=.5]{imgs/frequency-vs-transmittance.png}
+    \end{center}
+\end{itemize}
+
+Lastly, the \textbf{quality factor} $Q$ is the ratio of a nominal resonant frequency to the FWHM of the transmittance peaks,
+\[Q = \frac{\nu}{2\nu_{1/2}} = \mathcal{F}\frac{\nu}{\nu_{fsr}}\]
+
+The \textbf{quality factor} is characterized by the cavity.
+
+\newblock
+
+\textbf{Compute the coherence time, coherence length and coherence area of a source}
+
+Waves are \textbf{coherent} when they have the same phase difference.
+\begin{center}
+    \includegraphics*[scale = .2]{imgs/coherence.jpeg}
+\end{center}
+
+\textbf{Fringe visibility} is reduced with increasing time (length) until coherence is lost when the time separating the two beams is the \textbf{coherence time}
+\[\tau_0 \approx \frac{1}{\Delta \nu}\]
+
+where the \textbf{fringe visibility} is
+\[V = \frac{I_{max} - I_{min}}{I_{max} + I_{min}}\]
+
+Also, fringe visibility is reduce when increasing the \textbf{coherence length}
+\[l_t = c \cdot \tau_0 = \frac{c}{\Delta \nu} \approx \frac{\lambda^2}{\Delta\lambda}\]
+
+\begin{itemize}
+    \item With a point source, it will have perfect coherence.
+    \item When increasing the spatial extent of the source reduces the coherence.
+    \item With \textbf{Spatial coherence width}
+    \[l_s < \frac{r\lambda}{s} \approx \frac{\lambda}{\theta}\]
+    where $l_s$ is the spatial coherence width, $r$ is the distance to the sources, $\theta$ is the angle separation, $s$ slit width?.
+    \begin{center}
+        \includegraphics*[scale = .5]{imgs/spatial-coherence-width-1.png}
+    \end{center}
+\end{itemize}
+
+\newpage
+
+\lo{Compute Fraunhofer diffraction patterns formed by single and multiple slits, and by rectangular and circular apertures}
+
 
 
 

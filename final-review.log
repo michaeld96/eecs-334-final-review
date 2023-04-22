@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 12:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -620,20 +620,98 @@ File: imgs/ordering.png Graphic file (type png)
 <use imgs/ordering.png>
 Package pdftex.def Info: imgs/ordering.png  used on input line 605.
 (pdftex.def)             Requested size: 240.8994pt x 210.78699pt.
- [22 <./imgs/ordering.png>] (./final-review.aux) ) 
+ [22 <./imgs/ordering.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+
+ []
+
+<imgs/fb-setup.png, id=194, 340.27126pt x 178.6675pt>
+File: imgs/fb-setup.png Graphic file (type png)
+<use imgs/fb-setup.png>
+Package pdftex.def Info: imgs/fb-setup.png  used on input line 628.
+(pdftex.def)             Requested size: 340.27042pt x 178.66705pt.
+<imgs/airy-function.png, id=196, 414.54875pt x 85.31876pt>
+File: imgs/airy-function.png Graphic file (type png)
+<use imgs/airy-function.png>
+Package pdftex.def Info: imgs/airy-function.png  used on input line 641.
+(pdftex.def)             Requested size: 207.27386pt x 42.65926pt.
+<imgs/transmission-peaks.png, id=198, 509.905pt x 439.6425pt>
+File: imgs/transmission-peaks.png Graphic file (type png)
+<use imgs/transmission-peaks.png>
+Package pdftex.def Info: imgs/transmission-peaks.png  used on input line 655.
+(pdftex.def)             Requested size: 152.97267pt x 131.89375pt.
+[23 <./imgs/fb-setup.png> <./imgs/airy-function.png>]
+<imgs/numerical-aperture.jpg, id=207, 480.79625pt x 480.79625pt>
+File: imgs/numerical-aperture.jpg Graphic file (type jpg)
+<use imgs/numerical-aperture.jpg>
+Package pdftex.def Info: imgs/numerical-aperture.jpg  used on input line 661.
+(pdftex.def)             Requested size: 240.39752pt x 240.39752pt.
+<imgs/Airy-pattern.png, id=209, 1204.5pt x 893.3375pt>
+File: imgs/Airy-pattern.png Graphic file (type png)
+<use imgs/Airy-pattern.png>
+Package pdftex.def Info: imgs/Airy-pattern.png  used on input line 667.
+(pdftex.def)             Requested size: 240.89574pt x 178.66432pt.
+ [24 <./imgs/transmission-peaks.png> <./imgs/numerical-aperture.jpg> <./imgs/Airy-pattern.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
+
+ []
+
+<imgs/fwhm-t-diagram.png, id=219, 727.71875pt x 257.96375pt>
+File: imgs/fwhm-t-diagram.png Graphic file (type png)
+<use imgs/fwhm-t-diagram.png>
+Package pdftex.def Info: imgs/fwhm-t-diagram.png  used on input line 683.
+(pdftex.def)             Requested size: 436.63461pt x 154.77943pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+<imgs/cavity-change-vs-trans.png, id=221, 486.81876pt x 251.94125pt>
+File: imgs/cavity-change-vs-trans.png Graphic file (type png)
+<use imgs/cavity-change-vs-trans.png>
+Package pdftex.def Info: imgs/cavity-change-vs-trans.png  used on input line 689.
+(pdftex.def)             Requested size: 243.40878pt x 125.9703pt.
+[25 <./imgs/fwhm-t-diagram.png> <./imgs/cavity-change-vs-trans.png>]
+<imgs/resolution-creiterion.png, id=231, 722.7pt x 285.065pt>
+File: imgs/resolution-creiterion.png Graphic file (type png)
+<use imgs/resolution-creiterion.png>
+Package pdftex.def Info: imgs/resolution-creiterion.png  used on input line 700.
+(pdftex.def)             Requested size: 433.62334pt x 171.04031pt.
+<imgs/frequency-vs-transmittance.png, id=233, 767.86874pt x 306.14375pt>
+File: imgs/frequency-vs-transmittance.png Graphic file (type png)
+<use imgs/frequency-vs-transmittance.png>
+Package pdftex.def Info: imgs/frequency-vs-transmittance.png  used on input line 714.
+(pdftex.def)             Requested size: 383.93343pt x 153.07149pt.
+ [26 <./imgs/resolution-creiterion.png> <./imgs/frequency-vs-transmittance.png>]
+<imgs/coherence.jpeg, id=242, 1483.5425pt x 801.99625pt>
+File: imgs/coherence.jpeg Graphic file (type jpg)
+<use imgs/coherence.jpeg>
+Package pdftex.def Info: imgs/coherence.jpeg  used on input line 729.
+(pdftex.def)             Requested size: 296.70325pt x 160.39641pt.
+<imgs/spatial-coherence-width-1.png, id=244, 690.58pt x 184.69pt>
+File: imgs/spatial-coherence-width-1.png Graphic file (type png)
+<use imgs/spatial-coherence-width-1.png>
+Package pdftex.def Info: imgs/spatial-coherence-width-1.png  used on input line 748.
+(pdftex.def)             Requested size: 345.28915pt x 92.34476pt.
+ [27 <./imgs/coherence.jpeg> <./imgs/spatial-coherence-width-1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+[28] (./final-review.aux) ) 
 Here is how much of TeX's memory you used:
- 7327 strings out of 478268
- 136693 string characters out of 5846347
+ 7405 strings out of 478268
+ 138984 string characters out of 5846347
  478967 words of memory out of 5000000
- 25393 multiletter control sequences out of 15000+600000
+ 25459 multiletter control sequences out of 15000+600000
  473530 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,77p,530b,191s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,9n,77p,780b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on final-review.pdf (22 pages, 8825430 bytes).
+Output written on final-review.pdf (28 pages, 9394224 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 316 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
