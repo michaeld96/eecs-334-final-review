@@ -753,8 +753,177 @@ Also, fringe visibility is reduce when increasing the \textbf{coherence length}
 
 \lo{Compute Fraunhofer diffraction patterns formed by single and multiple slits, and by rectangular and circular apertures}
 
+\newblock
 
+First, lets make a distinction between diffraction and interference.
 
+\begin{itemize}
+    \item Diffraction phenomena are when the interfering beams originate from a continuous distribution of point sources.
+    \item Interference phenomena are from discrete number of beams or sources.
+\end{itemize}
+
+Next, lets define these \textbf{Huygen-Fresnel principle}
+\begin{center}
+    \includegraphics*[scale = .5]{imgs/huygens.png}
+\end{center}
+\textbf{Huygen:} Every point of a given wavefront can be considered a source of a secondary sphereical wavelets.
+\\
+\textbf{Fresnel:} Actual field at every point beyond the wavefront is a superposition of all these wavelets taking into account both their aptitudes and phases.
+
+\newblock
+
+There is two limiting approximations to diffraction:
+\begin{itemize}
+    \item Far-felid diffraction (Fraunhofer diffraction) makes flat wavefront (plane-waves).
+    \item Near-felid diffraction (Fresnel diffraction) makes curved wavefronts.
+\end{itemize}
+
+\begin{center}
+    \includegraphics*[scale = .7]{imgs/rectangular-app.png}
+\end{center}
+
+\newpage
+
+\begin{center}
+    \includegraphics*[scale = .1]{imgs/rectangle-app.jpeg}
+\end{center}
+
+\textbf{Irradiance} is given by the following 
+\[I = I_0\bigg(\frac{\sin^2(\beta)}{\beta^2}\bigg) = I_0 \text{sinc}^2(\beta)\]
+where $\beta$ is the magnitude of the phase difference at $P$. Also, $\beta \ \frac{1}{2}k\cdot b \sin(\theta)$, where $b$ is the slit width. \\
+The diagram above is we have a rectangle aperture with the length $>>$ width, and the wavefront are coming from a source very far away (or a laser).
+
+\newblock
+
+\textbf{Beam Spreading}
+
+\begin{center}
+    \includegraphics*[scale = .75]{imgs/beam-spreading.png}
+\end{center}
+
+The figure above demonstrates how far-field diffraction pattern from a single slit spread linearly with increasing distance $L$ from the slide. The width of the central maximum
+
+\[w = L \cdot \Delta \theta = \frac{2L \lambda}{b}\]
+
+where $w$ is the width of the maximum, at a distance $L$, and $\Delta \theta$ is the increasing angle. (from the review slides, it is stated: width of central maximum increases with increasing distance $L$ and decreasing slit width $b$)
+
+\newblock
+
+We know we are in the far field when 
+\[L >> \frac{b^2}{\lambda} = \frac{\text{area of aperature}}{\lambda}\]
+
+Where $L$ is the distance away from the source, and $b$ is the width of the slit.
+
+\newpage
+
+Intensity from a rectangular aperature with width $a$ and height $b$ is
+\[I = I_0(\text{sinc}^2(\beta))(\text{sinc}^2(\alpha))\]
+\begin{center}
+    where
+\end{center}
+
+\[\beta = \frac{1}{2}kb\sin(\theta) \text{ and } \alpha = \frac{1}{2}ka\sin(\theta)\]
+
+Below is the intensity from $N$ slits
+
+\begin{center}
+    \includegraphics*[scale = .6]{imgs/intensity-due-to-n-slits.png}
+\end{center}
+
+The irradiance for a \textbf{circular aperature} of diameter $D$ can be written as 
+
+\begin{center}
+    \includegraphics*[scale = .8]{imgs/intesity-from-circ-app.png}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale = .2]{imgs/intesity-circ.jpeg}
+\end{center}
+
+and $J_1(\gamma)$ is the first-order Bessel function of the first kind.
+
+\begin{center}
+    \includegraphics[scale = .8]{imgs/bessel-function.png}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale = .7]{imgs/j.png}
+\end{center}
+
+\lo{Determine the resolution of imaging devices by means of Rayleigh’s criterion}
+
+As shown above, the intensity for a circular aperture gives us
+
+\begin{center}
+    \includegraphics*[scale = .8]{imgs/intesity-from-circ-app.png}
+\end{center}
+
+The pattern in Figure 7 is symmertrical about the optical axis throught the center of the circular aperature and has its first zero when $\gamma = 3.828$ as shown in Figure 8a and b,therefore, the irradiance first falls to zero when 
+\[Dsin(\theta) = 1.22 \lambda\]
+
+\newpage
+
+The idffracted image of a circular aperture forms and intensity patter called an Airy disc. The far-field angular ardius of the Airy pattern is 
+
+\[\Delta \theta_{1/2} = \frac{1.22 \lambda}{D}\]
+
+Let's saw we have two point objects $s_1$ and $s_2$ imaged by a lens, then the center of the two Airy discs are resolved by $\theta$. This leads us to \textbf{Rayleigh's criterion} which is defined as, for just resolvable images, the angular separation of the centers should be no less than the angular radius of the air disc which is given by 
+\[(\Delta \theta) = \frac{1.22 \lambda}{D}\]
+
+This is achievable by either using a shorter wavelength $\lambda$ or a higher diameter will give us reduced refraction.
+
+\begin{center}
+    \includegraphics[scale = 1]{imgs/rayleigh.png}
+    \includegraphics[scale = .9]{imgs/fig-10.png}
+\end{center}
+
+\newpage
+
+\lo{Use the diffraction equation to determine the direction of principal diffraction maxima. Determine the free spectral range, the dispersion, and the resolution of a grating}
+
+Lets say we want to we want to measure distances between these two bight spots, but they're smudgy (look at Airy function), so there a better way to make these constructive interference so we can measure them! We will make something with a ton of holes, and the screen or film will have dots instead of these Airy functions!
+
+Let's see the diagram below:
+
+\begin{center}
+    \includegraphics[scale = .2]{imgs/grating.jpeg}
+\end{center}
+
+We see if we have many slits that they will all have a constructive interference at one spot (remember that we have constructive interference when the peaks of the wave match the peaks, and troughs match the troughs). If we go slightly off, lets say 1.1 of a wavelength then there will be total destructive interference. So the screen will only show dots because of all the constructive interferences on the wall.
+
+\newpage
+
+Let's look at the diagram below:
+
+\begin{center}
+    \includegraphics[scale = .7]{imgs/diffratction-fig-1.png}
+\end{center}
+
+The optical path difference for waves from successive slits is 
+
+\[\Delta = \Delta 1 + \Delta 1 = a(\sin(\theta_i) + \sin(\theta_m))\]
+
+Where we use the sign convention of 
+\begin{itemize}
+    \item + $\theta_m$ if on the same side of the normal as $\theta_i$
+    \item - $\theta_m$ if on the opposite side of the normal as $\theta_i$
+\end{itemize}
+
+Constructive interference when $\Delta = m \lambda$, give us the \textbf{grating equation}
+
+\[a(\sin(\theta_i) + \sin(\theta_m)) = m \lambda\]
+
+If we have $\lambda_1$ be the shortest wavelength and $\lambda_2$ be the longest wavelength of the incident light that is non-overlapping with the next order $\lambda_1$, then 
+\[m\lambda_2 = (m+1)\lambda_1\]
+Therefore we can define the free-spectral range $\lambda_{fsr}$, the maximum wavelength separation thaat can be unambiguously resolve in a given order, 
+
+\[\lambda_{fsr} = \lambda_2 - \lambda_1 = \frac{\lambda_1}{m}\]
+
+The free spectral range is the maximum wavelength separation $\Delta \lambda_{max}$, that can be unambiguously solved in any given order.
+
+\textbf{Dispersion of grating}
+
+The grating is spreading out the different wavelengths
 
 
 

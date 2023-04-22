@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 16:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -698,20 +698,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
-[28] (./final-review.aux) ) 
+<imgs/huygens.png, id=252, 447.6725pt x 349.305pt>
+File: imgs/huygens.png Graphic file (type png)
+<use imgs/huygens.png>
+Package pdftex.def Info: imgs/huygens.png  used on input line 767.
+(pdftex.def)             Requested size: 223.8357pt x 174.65207pt.
+<imgs/rectangular-app.png, id=254, 460.72125pt x 327.2225pt>
+File: imgs/rectangular-app.png Graphic file (type png)
+<use imgs/rectangular-app.png>
+Package pdftex.def Info: imgs/rectangular-app.png  used on input line 782.
+(pdftex.def)             Requested size: 322.50267pt x 229.05418pt.
+[28 <./imgs/huygens.png> <./imgs/rectangular-app.png>]
+<imgs/rectangle-app.jpeg, id=264, 1594.95876pt x 1519.6775pt>
+File: imgs/rectangle-app.jpeg Graphic file (type jpg)
+<use imgs/rectangle-app.jpeg>
+Package pdftex.def Info: imgs/rectangle-app.jpeg  used on input line 788.
+(pdftex.def)             Requested size: 159.50522pt x 151.97665pt.
+<imgs/beam-spreading.png, id=266, 461.725pt x 185.69376pt>
+File: imgs/beam-spreading.png Graphic file (type png)
+<use imgs/beam-spreading.png>
+Package pdftex.def Info: imgs/beam-spreading.png  used on input line 801.
+(pdftex.def)             Requested size: 346.29291pt x 139.26997pt.
+ [29 <./imgs/rectangle-app.jpeg> <./imgs/beam-spreading.png>]
+<imgs/intensity-due-to-n-slits.png, id=274, 429.605pt x 127.47626pt>
+File: imgs/intensity-due-to-n-slits.png Graphic file (type png)
+<use imgs/intensity-due-to-n-slits.png>
+Package pdftex.def Info: imgs/intensity-due-to-n-slits.png  used on input line 830.
+(pdftex.def)             Requested size: 257.76498pt x 76.48633pt.
+<imgs/intesity-from-circ-app.png, id=276, 305.14pt x 69.25874pt>
+File: imgs/intesity-from-circ-app.png Graphic file (type png)
+<use imgs/intesity-from-circ-app.png>
+Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 836.
+(pdftex.def)             Requested size: 244.11232pt x 55.40706pt.
+<imgs/intesity-circ.jpeg, id=278, 1427.3325pt x 1483.5425pt>
+File: imgs/intesity-circ.jpeg Graphic file (type jpg)
+<use imgs/intesity-circ.jpeg>
+Package pdftex.def Info: imgs/intesity-circ.jpeg  used on input line 840.
+(pdftex.def)             Requested size: 285.46144pt x 296.70325pt.
+<imgs/bessel-function.png, id=279, 483.8075pt x 195.73125pt>
+File: imgs/bessel-function.png Graphic file (type png)
+<use imgs/bessel-function.png>
+Package pdftex.def Info: imgs/bessel-function.png  used on input line 846.
+(pdftex.def)             Requested size: 387.04652pt x 156.58519pt.
+ [30 <./imgs/intensity-due-to-n-slits.png> <./imgs/intesity-from-circ-app.png> <./imgs/intesity-circ.jpeg>]
+<imgs/j.png, id=287, 449.68pt x 413.545pt>
+File: imgs/j.png Graphic file (type png)
+<use imgs/j.png>
+Package pdftex.def Info: imgs/j.png  used on input line 850.
+(pdftex.def)             Requested size: 314.77385pt x 289.4795pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+
+ []
+
+File: imgs/intesity-from-circ-app.png Graphic file (type png)
+<use imgs/intesity-from-circ-app.png>
+Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 858.
+(pdftex.def)             Requested size: 244.11232pt x 55.40706pt.
+[31 <./imgs/bessel-function.png> <./imgs/j.png>]
+<imgs/rayleigh.png, id=296, 484.81125pt x 344.28625pt>
+File: imgs/rayleigh.png Graphic file (type png)
+<use imgs/rayleigh.png>
+Package pdftex.def Info: imgs/rayleigh.png  used on input line 876.
+(pdftex.def)             Requested size: 484.81006pt x 344.2854pt.
+<imgs/fig-10.png, id=297, 146.5475pt x 162.6075pt>
+File: imgs/fig-10.png Graphic file (type png)
+<use imgs/fig-10.png>
+Package pdftex.def Info: imgs/fig-10.png  used on input line 877.
+(pdftex.def)             Requested size: 131.89151pt x 146.3454pt.
+
+Overfull \hbox (15.05504pt too wide) in paragraph at lines 876--878
+ [] 
+ []
+
+[32 <./imgs/rayleigh.png> <./imgs/fig-10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+
+ []
+
+<imgs/grating.jpeg, id=303, 1581.91pt x 1532.72626pt>
+File: imgs/grating.jpeg Graphic file (type jpg)
+<use imgs/grating.jpeg>
+Package pdftex.def Info: imgs/grating.jpeg  used on input line 889.
+(pdftex.def)             Requested size: 316.3764pt x 306.53983pt.
+[33 <./imgs/grating.jpeg>]
+<imgs/diffratction-fig-1.png, id=307, 415.5525pt x 187.70125pt>
+File: imgs/diffratction-fig-1.png Graphic file (type png)
+<use imgs/diffratction-fig-1.png>
+Package pdftex.def Info: imgs/diffratction-fig-1.png  used on input line 899.
+(pdftex.def)             Requested size: 290.88477pt x 131.38997pt.
+ [34 <./imgs/diffratction-fig-1.png>] (./final-review.aux) ) 
 Here is how much of TeX's memory you used:
- 7405 strings out of 478268
- 138984 string characters out of 5846347
+ 7496 strings out of 478268
+ 141300 string characters out of 5846347
  478967 words of memory out of 5000000
- 25459 multiletter control sequences out of 15000+600000
+ 25537 multiletter control sequences out of 15000+600000
  473530 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,9n,77p,780b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on final-review.pdf (28 pages, 9394224 bytes).
+Output written on final-review.pdf (34 pages, 11925836 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 372 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 463 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 words of extra memory for PDF output out of 10000 (max. 10000000)
 
