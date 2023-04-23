@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 16:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.31)  22 APR 2023 21:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -272,6 +272,9 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
 )
 \c@counter=\count309
  (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -301,20 +304,20 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./final-review.aux)
 \openout1 = `final-review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -372,79 +375,83 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <imgs/coherent-wave.png, id=1, 399.4925pt x 238.8925pt>
 File: imgs/coherent-wave.png Graphic file (type png)
 <use imgs/coherent-wave.png>
-Package pdftex.def Info: imgs/coherent-wave.png  used on input line 31.
+Package pdftex.def Info: imgs/coherent-wave.png  used on input line 37.
 (pdftex.def)             Requested size: 399.49152pt x 238.8919pt.
 <imgs/phase-difference.png, id=3, 505.89pt x 321.2pt>
 File: imgs/phase-difference.png Graphic file (type png)
 <use imgs/phase-difference.png>
-Package pdftex.def Info: imgs/phase-difference.png  used on input line 37.
+Package pdftex.def Info: imgs/phase-difference.png  used on input line 43.
 (pdftex.def)             Requested size: 252.94437pt x 160.59961pt.
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./imgs/coherent-wave.png> <./imgs/phase-difference.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 48.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 <imgs/superposition.png, id=17, 739.76375pt x 443.6575pt>
 File: imgs/superposition.png Graphic file (type png)
 <use imgs/superposition.png>
-Package pdftex.def Info: imgs/superposition.png  used on input line 45.
+Package pdftex.def Info: imgs/superposition.png  used on input line 51.
 (pdftex.def)             Requested size: 369.88097pt x 221.8282pt.
 <imgs/wavelength-fact.jpeg, id=19, 1049.9225pt x 615.29875pt>
 File: imgs/wavelength-fact.jpeg Graphic file (type jpg)
 <use imgs/wavelength-fact.jpeg>
-Package pdftex.def Info: imgs/wavelength-fact.jpeg  used on input line 60.
+Package pdftex.def Info: imgs/wavelength-fact.jpeg  used on input line 66.
 (pdftex.def)             Requested size: 262.47998pt x 153.82431pt.
  [2 <./imgs/superposition.png> <./imgs/wavelength-fact.jpeg>]
 <imgs/interger-difference.jpeg, id=33, 1005.7575pt x 468.75125pt>
 File: imgs/interger-difference.jpeg Graphic file (type jpg)
 <use imgs/interger-difference.jpeg>
-Package pdftex.def Info: imgs/interger-difference.jpeg  used on input line 68.
+Package pdftex.def Info: imgs/interger-difference.jpeg  used on input line 74.
 (pdftex.def)             Requested size: 352.0204pt x 164.06538pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
 <imgs/superposition-example.jpeg, id=35, 1595.9625pt x 1503.6175pt>
 File: imgs/superposition-example.jpeg Graphic file (type jpg)
 <use imgs/superposition-example.jpeg>
-Package pdftex.def Info: imgs/superposition-example.jpeg  used on input line 80.
+Package pdftex.def Info: imgs/superposition-example.jpeg  used on input line 86.
 (pdftex.def)             Requested size: 319.18684pt x 300.71817pt.
 [3 <./imgs/interger-difference.jpeg> <./imgs/superposition-example.jpeg>]
 <imgs/standing-wave-diagram.jpeg, id=42, 1488.56125pt x 571.13374pt>
 File: imgs/standing-wave-diagram.jpeg Graphic file (type jpg)
 <use imgs/standing-wave-diagram.jpeg>
-Package pdftex.def Info: imgs/standing-wave-diagram.jpeg  used on input line 116.
+Package pdftex.def Info: imgs/standing-wave-diagram.jpeg  used on input line 122.
 (pdftex.def)             Requested size: 297.70697pt x 114.22472pt.
 <imgs/standing-wave-with-nodes.jpeg, id=44, 1472.50125pt x 893.3375pt>
 File: imgs/standing-wave-with-nodes.jpeg Graphic file (type jpg)
 <use imgs/standing-wave-with-nodes.jpeg>
-Package pdftex.def Info: imgs/standing-wave-with-nodes.jpeg  used on input line 122.
+Package pdftex.def Info: imgs/standing-wave-with-nodes.jpeg  used on input line 128.
 (pdftex.def)             Requested size: 220.86566pt x 133.99484pt.
  [4 <./imgs/standing-wave-diagram.jpeg> <./imgs/standing-wave-with-nodes.jpeg>]
 <imgs/book-standing-wave-diagram.png, id=51, 617.30624pt x 298.11375pt>
 File: imgs/book-standing-wave-diagram.png Graphic file (type png)
 <use imgs/book-standing-wave-diagram.png>
-Package pdftex.def Info: imgs/book-standing-wave-diagram.png  used on input line 128.
+Package pdftex.def Info: imgs/book-standing-wave-diagram.png  used on input line 134.
 (pdftex.def)             Requested size: 462.97855pt x 223.58476pt.
 <imgs/standing-wave-for-lazer.png, id=53, 704.6325pt x 94.3525pt>
 File: imgs/standing-wave-for-lazer.png Graphic file (type png)
 <use imgs/standing-wave-for-lazer.png>
-Package pdftex.def Info: imgs/standing-wave-for-lazer.png  used on input line 142.
+Package pdftex.def Info: imgs/standing-wave-for-lazer.png  used on input line 148.
 (pdftex.def)             Requested size: 528.4731pt x 70.76418pt.
 
-Overfull \hbox (58.71808pt too wide) in paragraph at lines 142--143
+Overfull \hbox (58.71808pt too wide) in paragraph at lines 148--149
  [] 
  []
 
@@ -452,16 +459,16 @@ Overfull \hbox (58.71808pt too wide) in paragraph at lines 142--143
 <imgs/cavity-example.jpeg, id=63, 1596.96625pt x 1673.25125pt>
 File: imgs/cavity-example.jpeg Graphic file (type jpg)
 <use imgs/cavity-example.jpeg>
-Package pdftex.def Info: imgs/cavity-example.jpeg  used on input line 179.
+Package pdftex.def Info: imgs/cavity-example.jpeg  used on input line 185.
 (pdftex.def)             Requested size: 319.38759pt x 334.64432pt.
  [6 <./imgs/cavity-example.jpeg>]
 <imgs/cavity-example-cont.jpeg, id=69, 1572.87625pt x 1694.33pt>
 File: imgs/cavity-example-cont.jpeg Graphic file (type jpg)
 <use imgs/cavity-example-cont.jpeg>
-Package pdftex.def Info: imgs/cavity-example-cont.jpeg  used on input line 185.
+Package pdftex.def Info: imgs/cavity-example-cont.jpeg  used on input line 191.
 (pdftex.def)             Requested size: 314.56967pt x 338.86pt.
 
-Overfull \hbox (13.46664pt too wide) in paragraph at lines 187--203
+Overfull \hbox (13.46664pt too wide) in paragraph at lines 193--209
 [] 
  []
 
@@ -469,10 +476,10 @@ Overfull \hbox (13.46664pt too wide) in paragraph at lines 187--203
 <imgs/book-example-beat-frequency.png, id=76, 490.83376pt x 659.46375pt>
 File: imgs/book-example-beat-frequency.png Graphic file (type png)
 <use imgs/book-example-beat-frequency.png>
-Package pdftex.def Info: imgs/book-example-beat-frequency.png  used on input line 213.
+Package pdftex.def Info: imgs/book-example-beat-frequency.png  used on input line 219.
 (pdftex.def)             Requested size: 122.70813pt x 164.86552pt.
 
-Overfull \hbox (13.46664pt too wide) in paragraph at lines 219--234
+Overfull \hbox (13.46664pt too wide) in paragraph at lines 225--240
 [] 
  []
 
@@ -480,16 +487,16 @@ Overfull \hbox (13.46664pt too wide) in paragraph at lines 219--234
 <imgs/envolope-example.png, id=83, 525.965pt x 386.44376pt>
 File: imgs/envolope-example.png Graphic file (type png)
 <use imgs/envolope-example.png>
-Package pdftex.def Info: imgs/envolope-example.png  used on input line 269.
+Package pdftex.def Info: imgs/envolope-example.png  used on input line 275.
 (pdftex.def)             Requested size: 262.98184pt x 193.2214pt.
  [9 <./imgs/envolope-example.png>]
 <imgs/example-with-phase-and-group.jpeg, id=91, 1598.97375pt x 2087.8pt>
 File: imgs/example-with-phase-and-group.jpeg Graphic file (type jpg)
 <use imgs/example-with-phase-and-group.jpeg>
-Package pdftex.def Info: imgs/example-with-phase-and-group.jpeg  used on input line 285.
+Package pdftex.def Info: imgs/example-with-phase-and-group.jpeg  used on input line 291.
 (pdftex.def)             Requested size: 399.74246pt x 521.94873pt.
  [10 <./imgs/example-with-phase-and-group.jpeg>]
-Overfull \hbox (13.46664pt too wide) in paragraph at lines 288--325
+Overfull \hbox (13.46664pt too wide) in paragraph at lines 294--331
 [] 
  []
 
@@ -497,69 +504,69 @@ Overfull \hbox (13.46664pt too wide) in paragraph at lines 288--325
 <imgs/superposition-irradiance.png, id=102, 512.91624pt x 353.32pt>
 File: imgs/superposition-irradiance.png Graphic file (type png)
 <use imgs/superposition-irradiance.png>
-Package pdftex.def Info: imgs/superposition-irradiance.png  used on input line 332.
+Package pdftex.def Info: imgs/superposition-irradiance.png  used on input line 338.
 (pdftex.def)             Requested size: 256.45749pt x 176.65956pt.
 <imgs/min-max-intensity.png, id=104, 398.48875pt x 173.64874pt>
 File: imgs/min-max-intensity.png Graphic file (type png)
 <use imgs/min-max-intensity.png>
-Package pdftex.def Info: imgs/min-max-intensity.png  used on input line 371.
+Package pdftex.def Info: imgs/min-max-intensity.png  used on input line 377.
 (pdftex.def)             Requested size: 398.48778pt x 173.64832pt.
  [12 <./imgs/superposition-irradiance.png>] [13 <./imgs/min-max-intensity.png>]
 <imgs/wavefront.jpeg, id=118, 1594.95876pt x 1357.07pt>
 File: imgs/wavefront.jpeg Graphic file (type jpg)
 <use imgs/wavefront.jpeg>
-Package pdftex.def Info: imgs/wavefront.jpeg  used on input line 385.
+Package pdftex.def Info: imgs/wavefront.jpeg  used on input line 391.
 (pdftex.def)             Requested size: 398.73871pt x 339.26666pt.
  [14 <./imgs/wavefront.jpeg>]
 <imgs/book-young-experiment.png, id=124, 565.11125pt x 333.245pt>
 File: imgs/book-young-experiment.png Graphic file (type png)
 <use imgs/book-young-experiment.png>
-Package pdftex.def Info: imgs/book-young-experiment.png  used on input line 397.
+Package pdftex.def Info: imgs/book-young-experiment.png  used on input line 403.
 (pdftex.def)             Requested size: 282.55493pt x 166.62209pt.
 <imgs/film-young.png, id=126, 381.425pt x 523.9575pt>
 File: imgs/film-young.png Graphic file (type png)
 <use imgs/film-young.png>
-Package pdftex.def Info: imgs/film-young.png  used on input line 403.
+Package pdftex.def Info: imgs/film-young.png  used on input line 409.
 (pdftex.def)             Requested size: 190.71202pt x 261.9781pt.
  [15 <./imgs/book-young-experiment.png> <./imgs/film-young.png>]
 <imgs/double-split-example.jpeg, id=135, 1525.7pt x 1676.2625pt>
 File: imgs/double-split-example.jpeg Graphic file (type jpg)
 <use imgs/double-split-example.jpeg>
-Package pdftex.def Info: imgs/double-split-example.jpeg  used on input line 431.
+Package pdftex.def Info: imgs/double-split-example.jpeg  used on input line 437.
 (pdftex.def)             Requested size: 305.1346pt x 335.24657pt.
 
-Overfull \hbox (13.46664pt too wide) in paragraph at lines 450--451
+Overfull \hbox (13.46664pt too wide) in paragraph at lines 456--457
 [][] 
  []
 
 [16 <./imgs/double-split-example.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 <imgs/thin-film-1.jpeg, id=141, 1057.9525pt x 1035.87pt>
 File: imgs/thin-film-1.jpeg Graphic file (type jpg)
 <use imgs/thin-film-1.jpeg>
-Package pdftex.def Info: imgs/thin-film-1.jpeg  used on input line 461.
+Package pdftex.def Info: imgs/thin-film-1.jpeg  used on input line 467.
 (pdftex.def)             Requested size: 211.58675pt x 207.17032pt.
 <imgs/shift-thin-film.jpeg, id=143, 1530.71875pt x 1101.11375pt>
 File: imgs/shift-thin-film.jpeg Graphic file (type jpg)
 <use imgs/shift-thin-film.jpeg>
-Package pdftex.def Info: imgs/shift-thin-film.jpeg  used on input line 471.
+Package pdftex.def Info: imgs/shift-thin-film.jpeg  used on input line 477.
 (pdftex.def)             Requested size: 306.13832pt x 220.21884pt.
 [17 <./imgs/thin-film-1.jpeg> <./imgs/shift-thin-film.jpeg>]
 <imgs/phase-shift-thin-film.jpeg, id=150, 1486.55376pt x 1069.9975pt>
 File: imgs/phase-shift-thin-film.jpeg Graphic file (type jpg)
 <use imgs/phase-shift-thin-film.jpeg>
-Package pdftex.def Info: imgs/phase-shift-thin-film.jpeg  used on input line 480.
+Package pdftex.def Info: imgs/phase-shift-thin-film.jpeg  used on input line 486.
 (pdftex.def)             Requested size: 297.30548pt x 213.99571pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
@@ -567,240 +574,370 @@ Underfull \hbox (badness 10000) in paragraph at lines 509--510
 <imgs/newton-ring-1.jpeg, id=156, 1315.91624pt x 1196.47pt>
 File: imgs/newton-ring-1.jpeg Graphic file (type jpg)
 <use imgs/newton-ring-1.jpeg>
-Package pdftex.def Info: imgs/newton-ring-1.jpeg  used on input line 536.
+Package pdftex.def Info: imgs/newton-ring-1.jpeg  used on input line 542.
 (pdftex.def)             Requested size: 263.17859pt x 239.28976pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
 <imgs/measure-film-thickness.png, id=158, 667.49374pt x 303.1325pt>
 File: imgs/measure-film-thickness.png Graphic file (type png)
 <use imgs/measure-film-thickness.png>
-Package pdftex.def Info: imgs/measure-film-thickness.png  used on input line 542.
+Package pdftex.def Info: imgs/measure-film-thickness.png  used on input line 548.
 (pdftex.def)             Requested size: 333.74606pt x 151.56587pt.
 [19 <./imgs/newton-ring-1.jpeg> <./imgs/measure-film-thickness.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
  []
 
 <imgs/stokes-relation.jpeg, id=167, 1405.25pt x 1379.1525pt>
 File: imgs/stokes-relation.jpeg Graphic file (type jpg)
 <use imgs/stokes-relation.jpeg>
-Package pdftex.def Info: imgs/stokes-relation.jpeg  used on input line 565.
+Package pdftex.def Info: imgs/stokes-relation.jpeg  used on input line 571.
 (pdftex.def)             Requested size: 281.04501pt x 275.8256pt.
 <imgs/stokes-relation.png, id=169, 134.5025pt x 157.58875pt>
 File: imgs/stokes-relation.png Graphic file (type png)
 <use imgs/stokes-relation.png>
-Package pdftex.def Info: imgs/stokes-relation.png  used on input line 578.
+Package pdftex.def Info: imgs/stokes-relation.png  used on input line 584.
 (pdftex.def)             Requested size: 94.1511pt x 110.31136pt.
 [20 <./imgs/stokes-relation.jpeg> <./imgs/stokes-relation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
 
  []
 
 <imgs/multibeam-eqs.png, id=177, 936.49875pt x 525.965pt>
 File: imgs/multibeam-eqs.png Graphic file (type png)
 <use imgs/multibeam-eqs.png>
-Package pdftex.def Info: imgs/multibeam-eqs.png  used on input line 586.
+Package pdftex.def Info: imgs/multibeam-eqs.png  used on input line 592.
 (pdftex.def)             Requested size: 468.24823pt x 262.98184pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 
  []
 
 <imgs/michelson-infrometer.jpeg, id=179, 1477.52pt x 1187.43625pt>
 File: imgs/michelson-infrometer.jpeg Graphic file (type jpg)
 <use imgs/michelson-infrometer.jpeg>
-Package pdftex.def Info: imgs/michelson-infrometer.jpeg  used on input line 596.
+Package pdftex.def Info: imgs/michelson-infrometer.jpeg  used on input line 602.
 (pdftex.def)             Requested size: 295.49876pt x 237.48305pt.
 [21 <./imgs/multibeam-eqs.png> <./imgs/michelson-infrometer.jpeg>]
 <imgs/ordering.png, id=187, 240.9pt x 210.7875pt>
 File: imgs/ordering.png Graphic file (type png)
 <use imgs/ordering.png>
-Package pdftex.def Info: imgs/ordering.png  used on input line 605.
+Package pdftex.def Info: imgs/ordering.png  used on input line 611.
 (pdftex.def)             Requested size: 240.8994pt x 210.78699pt.
  [22 <./imgs/ordering.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
 <imgs/fb-setup.png, id=194, 340.27126pt x 178.6675pt>
 File: imgs/fb-setup.png Graphic file (type png)
 <use imgs/fb-setup.png>
-Package pdftex.def Info: imgs/fb-setup.png  used on input line 628.
+Package pdftex.def Info: imgs/fb-setup.png  used on input line 634.
 (pdftex.def)             Requested size: 340.27042pt x 178.66705pt.
 <imgs/airy-function.png, id=196, 414.54875pt x 85.31876pt>
 File: imgs/airy-function.png Graphic file (type png)
 <use imgs/airy-function.png>
-Package pdftex.def Info: imgs/airy-function.png  used on input line 641.
+Package pdftex.def Info: imgs/airy-function.png  used on input line 647.
 (pdftex.def)             Requested size: 207.27386pt x 42.65926pt.
 <imgs/transmission-peaks.png, id=198, 509.905pt x 439.6425pt>
 File: imgs/transmission-peaks.png Graphic file (type png)
 <use imgs/transmission-peaks.png>
-Package pdftex.def Info: imgs/transmission-peaks.png  used on input line 655.
+Package pdftex.def Info: imgs/transmission-peaks.png  used on input line 661.
 (pdftex.def)             Requested size: 152.97267pt x 131.89375pt.
 [23 <./imgs/fb-setup.png> <./imgs/airy-function.png>]
 <imgs/numerical-aperture.jpg, id=207, 480.79625pt x 480.79625pt>
 File: imgs/numerical-aperture.jpg Graphic file (type jpg)
 <use imgs/numerical-aperture.jpg>
-Package pdftex.def Info: imgs/numerical-aperture.jpg  used on input line 661.
+Package pdftex.def Info: imgs/numerical-aperture.jpg  used on input line 667.
 (pdftex.def)             Requested size: 240.39752pt x 240.39752pt.
 <imgs/Airy-pattern.png, id=209, 1204.5pt x 893.3375pt>
 File: imgs/Airy-pattern.png Graphic file (type png)
 <use imgs/Airy-pattern.png>
-Package pdftex.def Info: imgs/Airy-pattern.png  used on input line 667.
+Package pdftex.def Info: imgs/Airy-pattern.png  used on input line 673.
 (pdftex.def)             Requested size: 240.89574pt x 178.66432pt.
  [24 <./imgs/transmission-peaks.png> <./imgs/numerical-aperture.jpg> <./imgs/Airy-pattern.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
 <imgs/fwhm-t-diagram.png, id=219, 727.71875pt x 257.96375pt>
 File: imgs/fwhm-t-diagram.png Graphic file (type png)
 <use imgs/fwhm-t-diagram.png>
-Package pdftex.def Info: imgs/fwhm-t-diagram.png  used on input line 683.
+Package pdftex.def Info: imgs/fwhm-t-diagram.png  used on input line 689.
 (pdftex.def)             Requested size: 436.63461pt x 154.77943pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
 
  []
 
 <imgs/cavity-change-vs-trans.png, id=221, 486.81876pt x 251.94125pt>
 File: imgs/cavity-change-vs-trans.png Graphic file (type png)
 <use imgs/cavity-change-vs-trans.png>
-Package pdftex.def Info: imgs/cavity-change-vs-trans.png  used on input line 689.
+Package pdftex.def Info: imgs/cavity-change-vs-trans.png  used on input line 695.
 (pdftex.def)             Requested size: 243.40878pt x 125.9703pt.
 [25 <./imgs/fwhm-t-diagram.png> <./imgs/cavity-change-vs-trans.png>]
 <imgs/resolution-creiterion.png, id=231, 722.7pt x 285.065pt>
 File: imgs/resolution-creiterion.png Graphic file (type png)
 <use imgs/resolution-creiterion.png>
-Package pdftex.def Info: imgs/resolution-creiterion.png  used on input line 700.
+Package pdftex.def Info: imgs/resolution-creiterion.png  used on input line 706.
 (pdftex.def)             Requested size: 433.62334pt x 171.04031pt.
 <imgs/frequency-vs-transmittance.png, id=233, 767.86874pt x 306.14375pt>
 File: imgs/frequency-vs-transmittance.png Graphic file (type png)
 <use imgs/frequency-vs-transmittance.png>
-Package pdftex.def Info: imgs/frequency-vs-transmittance.png  used on input line 714.
+Package pdftex.def Info: imgs/frequency-vs-transmittance.png  used on input line 720.
 (pdftex.def)             Requested size: 383.93343pt x 153.07149pt.
  [26 <./imgs/resolution-creiterion.png> <./imgs/frequency-vs-transmittance.png>]
 <imgs/coherence.jpeg, id=242, 1483.5425pt x 801.99625pt>
 File: imgs/coherence.jpeg Graphic file (type jpg)
 <use imgs/coherence.jpeg>
-Package pdftex.def Info: imgs/coherence.jpeg  used on input line 729.
+Package pdftex.def Info: imgs/coherence.jpeg  used on input line 735.
 (pdftex.def)             Requested size: 296.70325pt x 160.39641pt.
 <imgs/spatial-coherence-width-1.png, id=244, 690.58pt x 184.69pt>
 File: imgs/spatial-coherence-width-1.png Graphic file (type png)
 <use imgs/spatial-coherence-width-1.png>
-Package pdftex.def Info: imgs/spatial-coherence-width-1.png  used on input line 748.
+Package pdftex.def Info: imgs/spatial-coherence-width-1.png  used on input line 754.
 (pdftex.def)             Requested size: 345.28915pt x 92.34476pt.
  [27 <./imgs/coherence.jpeg> <./imgs/spatial-coherence-width-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 <imgs/huygens.png, id=252, 447.6725pt x 349.305pt>
 File: imgs/huygens.png Graphic file (type png)
 <use imgs/huygens.png>
-Package pdftex.def Info: imgs/huygens.png  used on input line 767.
+Package pdftex.def Info: imgs/huygens.png  used on input line 773.
 (pdftex.def)             Requested size: 223.8357pt x 174.65207pt.
 <imgs/rectangular-app.png, id=254, 460.72125pt x 327.2225pt>
 File: imgs/rectangular-app.png Graphic file (type png)
 <use imgs/rectangular-app.png>
-Package pdftex.def Info: imgs/rectangular-app.png  used on input line 782.
+Package pdftex.def Info: imgs/rectangular-app.png  used on input line 788.
 (pdftex.def)             Requested size: 322.50267pt x 229.05418pt.
 [28 <./imgs/huygens.png> <./imgs/rectangular-app.png>]
 <imgs/rectangle-app.jpeg, id=264, 1594.95876pt x 1519.6775pt>
 File: imgs/rectangle-app.jpeg Graphic file (type jpg)
 <use imgs/rectangle-app.jpeg>
-Package pdftex.def Info: imgs/rectangle-app.jpeg  used on input line 788.
+Package pdftex.def Info: imgs/rectangle-app.jpeg  used on input line 794.
 (pdftex.def)             Requested size: 159.50522pt x 151.97665pt.
 <imgs/beam-spreading.png, id=266, 461.725pt x 185.69376pt>
 File: imgs/beam-spreading.png Graphic file (type png)
 <use imgs/beam-spreading.png>
-Package pdftex.def Info: imgs/beam-spreading.png  used on input line 801.
+Package pdftex.def Info: imgs/beam-spreading.png  used on input line 807.
 (pdftex.def)             Requested size: 346.29291pt x 139.26997pt.
  [29 <./imgs/rectangle-app.jpeg> <./imgs/beam-spreading.png>]
 <imgs/intensity-due-to-n-slits.png, id=274, 429.605pt x 127.47626pt>
 File: imgs/intensity-due-to-n-slits.png Graphic file (type png)
 <use imgs/intensity-due-to-n-slits.png>
-Package pdftex.def Info: imgs/intensity-due-to-n-slits.png  used on input line 830.
+Package pdftex.def Info: imgs/intensity-due-to-n-slits.png  used on input line 836.
 (pdftex.def)             Requested size: 257.76498pt x 76.48633pt.
 <imgs/intesity-from-circ-app.png, id=276, 305.14pt x 69.25874pt>
 File: imgs/intesity-from-circ-app.png Graphic file (type png)
 <use imgs/intesity-from-circ-app.png>
-Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 836.
+Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 842.
 (pdftex.def)             Requested size: 244.11232pt x 55.40706pt.
 <imgs/intesity-circ.jpeg, id=278, 1427.3325pt x 1483.5425pt>
 File: imgs/intesity-circ.jpeg Graphic file (type jpg)
 <use imgs/intesity-circ.jpeg>
-Package pdftex.def Info: imgs/intesity-circ.jpeg  used on input line 840.
+Package pdftex.def Info: imgs/intesity-circ.jpeg  used on input line 846.
 (pdftex.def)             Requested size: 285.46144pt x 296.70325pt.
 <imgs/bessel-function.png, id=279, 483.8075pt x 195.73125pt>
 File: imgs/bessel-function.png Graphic file (type png)
 <use imgs/bessel-function.png>
-Package pdftex.def Info: imgs/bessel-function.png  used on input line 846.
+Package pdftex.def Info: imgs/bessel-function.png  used on input line 852.
 (pdftex.def)             Requested size: 387.04652pt x 156.58519pt.
  [30 <./imgs/intensity-due-to-n-slits.png> <./imgs/intesity-from-circ-app.png> <./imgs/intesity-circ.jpeg>]
 <imgs/j.png, id=287, 449.68pt x 413.545pt>
 File: imgs/j.png Graphic file (type png)
 <use imgs/j.png>
-Package pdftex.def Info: imgs/j.png  used on input line 850.
+Package pdftex.def Info: imgs/j.png  used on input line 856.
 (pdftex.def)             Requested size: 314.77385pt x 289.4795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--854
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
 File: imgs/intesity-from-circ-app.png Graphic file (type png)
 <use imgs/intesity-from-circ-app.png>
-Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 858.
+Package pdftex.def Info: imgs/intesity-from-circ-app.png  used on input line 864.
 (pdftex.def)             Requested size: 244.11232pt x 55.40706pt.
 [31 <./imgs/bessel-function.png> <./imgs/j.png>]
 <imgs/rayleigh.png, id=296, 484.81125pt x 344.28625pt>
 File: imgs/rayleigh.png Graphic file (type png)
 <use imgs/rayleigh.png>
-Package pdftex.def Info: imgs/rayleigh.png  used on input line 876.
+Package pdftex.def Info: imgs/rayleigh.png  used on input line 882.
 (pdftex.def)             Requested size: 484.81006pt x 344.2854pt.
 <imgs/fig-10.png, id=297, 146.5475pt x 162.6075pt>
 File: imgs/fig-10.png Graphic file (type png)
 <use imgs/fig-10.png>
-Package pdftex.def Info: imgs/fig-10.png  used on input line 877.
+Package pdftex.def Info: imgs/fig-10.png  used on input line 883.
 (pdftex.def)             Requested size: 131.89151pt x 146.3454pt.
 
-Overfull \hbox (15.05504pt too wide) in paragraph at lines 876--878
+Overfull \hbox (15.05504pt too wide) in paragraph at lines 882--884
  [] 
  []
 
 [32 <./imgs/rayleigh.png> <./imgs/fig-10.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 882--883
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
 
  []
 
 <imgs/grating.jpeg, id=303, 1581.91pt x 1532.72626pt>
 File: imgs/grating.jpeg Graphic file (type jpg)
 <use imgs/grating.jpeg>
-Package pdftex.def Info: imgs/grating.jpeg  used on input line 889.
+Package pdftex.def Info: imgs/grating.jpeg  used on input line 895.
 (pdftex.def)             Requested size: 316.3764pt x 306.53983pt.
 [33 <./imgs/grating.jpeg>]
 <imgs/diffratction-fig-1.png, id=307, 415.5525pt x 187.70125pt>
 File: imgs/diffratction-fig-1.png Graphic file (type png)
 <use imgs/diffratction-fig-1.png>
-Package pdftex.def Info: imgs/diffratction-fig-1.png  used on input line 899.
+Package pdftex.def Info: imgs/diffratction-fig-1.png  used on input line 905.
 (pdftex.def)             Requested size: 290.88477pt x 131.38997pt.
- [34 <./imgs/diffratction-fig-1.png>] (./final-review.aux) ) 
+<imgs/fsr-grating.png, id=308, 412.54124pt x 192.72pt>
+File: imgs/fsr-grating.png Graphic file (type png)
+<use imgs/fsr-grating.png>
+Package pdftex.def Info: imgs/fsr-grating.png  used on input line 933.
+(pdftex.def)             Requested size: 247.52666pt x 115.63287pt.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 936.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [34 <./imgs/diffratction-fig-1.png> <./imgs/fsr-grating.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
+
+ []
+
+<imgs/fig-5.png, id=315, 204.765pt x 328.22626pt>
+File: imgs/fig-5.png Graphic file (type png)
+<use imgs/fig-5.png>
+Package pdftex.def Info: imgs/fig-5.png  used on input line 975.
+(pdftex.def)             Requested size: 163.8122pt x 262.58136pt.
+<imgs/fig-6.png, id=317, 194.7275pt x 211.79124pt>
+File: imgs/fig-6.png Graphic file (type png)
+<use imgs/fig-6.png>
+Package pdftex.def Info: imgs/fig-6.png  used on input line 976.
+(pdftex.def)             Requested size: 155.7822pt x 169.43321pt.
+[35 <./imgs/fig-5.png> <./imgs/fig-6.png>]
+<imgs/comparisons.png, id=324, 514.92375pt x 195.73125pt>
+File: imgs/comparisons.png Graphic file (type png)
+<use imgs/comparisons.png>
+Package pdftex.def Info: imgs/comparisons.png  used on input line 981.
+(pdftex.def)             Requested size: 514.92249pt x 195.73076pt.
+
+Overfull \hbox (45.16747pt too wide) in paragraph at lines 981--981
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
+
+ []
+
+[36 <./imgs/comparisons.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+<imgs/circ-approx.png, id=331, 743.77875pt x 302.12875pt>
+File: imgs/circ-approx.png Graphic file (type png)
+<use imgs/circ-approx.png>
+Package pdftex.def Info: imgs/circ-approx.png  used on input line 1040.
+(pdftex.def)             Requested size: 446.27069pt x 181.27864pt.
+[37 <./imgs/circ-approx.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+<imgs/plate.png, id=339, 237.88875pt x 194.7275pt>
+File: imgs/plate.png Graphic file (type png)
+<use imgs/plate.png>
+Package pdftex.def Info: imgs/plate.png  used on input line 1046.
+(pdftex.def)             Requested size: 166.52098pt x 136.3083pt.
+<imgs/plate-def.png, id=341, 235.88126pt x 215.80624pt>
+File: imgs/plate-def.png Graphic file (type png)
+<use imgs/plate-def.png>
+Package pdftex.def Info: imgs/plate-def.png  used on input line 1046.
+(pdftex.def)             Requested size: 165.11575pt x 151.06332pt.
+[38 <./imgs/plate.png> <./imgs/plate-def.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+
+ []
+
+<imgs/holo.png, id=350, 691.58376pt x 401.5pt>
+File: imgs/holo.png Graphic file (type png)
+<use imgs/holo.png>
+Package pdftex.def Info: imgs/holo.png  used on input line 1069.
+(pdftex.def)             Requested size: 345.79103pt x 200.7495pt.
+<imgs/holo1.png, id=352, 685.56125pt x 410.53375pt>
+File: imgs/holo1.png Graphic file (type png)
+<use imgs/holo1.png>
+Package pdftex.def Info: imgs/holo1.png  used on input line 1075.
+(pdftex.def)             Requested size: 342.77979pt x 205.26637pt.
+[39 <./imgs/holo.png> <./imgs/holo1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+
+ []
+
+<imgs/bragg.png, id=361, 225.84375pt x 196.735pt>
+File: imgs/bragg.png Graphic file (type png)
+<use imgs/bragg.png>
+Package pdftex.def Info: imgs/bragg.png  used on input line 1091.
+(pdftex.def)             Requested size: 225.84319pt x 196.7345pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+
+ []
+
+<imgs/lazy.png, id=363, 632.3625pt x 389.455pt>
+File: imgs/lazy.png Graphic file (type png)
+<use imgs/lazy.png>
+Package pdftex.def Info: imgs/lazy.png  used on input line 1103.
+(pdftex.def)             Requested size: 316.18048pt x 194.72702pt.
+[40 <./imgs/bragg.png> <./imgs/lazy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+
+ []
+
+<imgs/lazy2.png, id=372, 635.37375pt x 362.35374pt>
+File: imgs/lazy2.png Graphic file (type png)
+<use imgs/lazy2.png>
+Package pdftex.def Info: imgs/lazy2.png  used on input line 1109.
+(pdftex.def)             Requested size: 317.6861pt x 181.17642pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+
+ []
+
+<imgs/lazy-3.png, id=374, 682.55pt x 360.34625pt>
+File: imgs/lazy-3.png Graphic file (type png)
+<use imgs/lazy-3.png>
+Package pdftex.def Info: imgs/lazy-3.png  used on input line 1112.
+(pdftex.def)             Requested size: 341.27417pt x 180.17268pt.
+[41 <./imgs/lazy2.png> <./imgs/lazy-3.png>]
+<imgs/my-laser.jpeg, id=383, 1602.98875pt x 1087.06125pt>
+File: imgs/my-laser.jpeg Graphic file (type jpg)
+<use imgs/my-laser.jpeg>
+Package pdftex.def Info: imgs/my-laser.jpeg  used on input line 1123.
+(pdftex.def)             Requested size: 320.59207pt x 217.40839pt.
+<imgs/laZZY.png, id=385, 637.38126pt x 438.63875pt>
+File: imgs/laZZY.png Graphic file (type png)
+<use imgs/laZZY.png>
+Package pdftex.def Info: imgs/laZZY.png  used on input line 1127.
+(pdftex.def)             Requested size: 446.16383pt x 307.04501pt.
+ [42 <./imgs/my-laser.jpeg> <./imgs/laZZY.png>] (./final-review.aux) ) 
 Here is how much of TeX's memory you used:
- 7496 strings out of 478268
- 141300 string characters out of 5846347
- 478967 words of memory out of 5000000
- 25537 multiletter control sequences out of 15000+600000
- 473530 words of font info for 44 fonts, out of 8000000 for 9000
+ 7658 strings out of 478268
+ 144672 string characters out of 5846347
+ 479114 words of memory out of 5000000
+ 25668 multiletter control sequences out of 15000+600000
+ 474733 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,9n,77p,780b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on final-review.pdf (34 pages, 11925836 bytes).
+ 74i,13n,77p,780b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on final-review.pdf (42 pages, 13189162 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 460 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 570 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 723 words of extra memory for PDF output out of 10000 (max. 10000000)
 

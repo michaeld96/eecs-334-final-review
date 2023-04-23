@@ -8,6 +8,12 @@
 \usepackage{amsfonts}
 \usepackage{minted}
 \usepackage{graphicx}
+\usepackage{mathrsfs}
+\newcommand*{\pic}[2]{
+    \begin{center}
+        \includegraphics*[scale = #1]{imgs/#2}
+    \end{center}
+}
 \newcounter{counter}
 \setcounter{counter}{1}
 \newcommand*{\lo}[1]{
@@ -923,20 +929,201 @@ The free spectral range is the maximum wavelength separation $\Delta \lambda_{ma
 
 \textbf{Dispersion of grating}
 
-The grating is spreading out the different wavelengths
+\begin{center}
+    \includegraphics[scale = .6]{imgs/fsr-grating.png}
+\end{center}
+
+Higher diffraction orders grow less intense as they fall more and more under the constraining envelope, but in Figure 2b shows clearly that wavelengths winith an order are better separated as their order increase. This property is precisely descrived by the \textbf{angular dispersion} $\mathfrak{D}$ is defined as
+\[\mathfrak{D} = \underbrace{\frac{d\theta_m}{d\lambda}}_{\text{How big the angular separation of two different wavelength}} = \frac{m}{a\cos(\theta_m)}\]
+
+\textit{Note: no dispersion for $m= 0$ }
+
+\newpage
+
+Now lets say we put a lens with a focal length $f$ is used to project the far-field onto a screen, then the \textbf{linear dispersion} can be found
+
+\[\frac{dy}{d\lambda} = f \cdot \mathfrak{D}\]
+
+\textbf{Resolution of a Grating}
+
+Remember that $\mathcal{R} = \frac{\lambda}{\Delta \lambda_{min}}$
+
+\newblock
+
+Here, the Rayleigh criterion will tell us that $\Delta \lambda_{min}$ that can be resolved. For normally incident light of wavelength $(\lambda + d\lambda)$, and the principle maximum of order $m$. To satisfy the Rayleigh criterion, this peak $\lambda$ must coincide (same $\theta$) with the first minimum of the neighboring wavelengths ($\lambda + d \lambda$) in the same order giving us
+\[\mathcal{R} = \frac{\lambda}{d\lambda} = mN\]
+Where $N$ is the number of grooves illuminated.
 
 
+\lo{Design gratings blazed for a particular order in Littrow or normal mount}
+
+There is two type of grating. 
+
+\begin{itemize}
+    \item \textbf{Transmission grating} (above is all about this), Periodic regions of high reflectance. 
+    \item \textbf{Reflection grating:} Period regions of high reflectance (Thin strips of mirror that act as the slits).
+\end{itemize}
+
+The shape of the surface of the grating can be either:
+
+\begin{itemize}
+    \item \textbf{Unblazed:} a simple grooved shape scored out onto the surface. The zeroth order contains the highest intensity of the light, but there is no dispersion.
+    \item \textbf{Blazed:} the grooves are shaped to shift the diffraction envelope peak away from the zeroth order using prismatic grooves or inclined mirror faces. The interference maxima remain in the same position.
+\end{itemize}
+
+\begin{center}
+\includegraphics*[scale = .8]{imgs/fig-5.png}
+\includegraphics[scale = .8]{imgs/fig-6.png}
+\end{center}
+
+\newpage
+
+\pic{1}{comparisons.png}
+
+Now, lets talk about the \textbf{Blaze angle}. The blaze angle $\theta_b$ is optimized to maximize efficiency for the wavelength of the used light. This means, the blaze angle is chosen such that the beam diffracted at the grating and the beam reflected at the steps are both deflected the same direction.
 
 
+\textbf{Littrow Mount:} The incident light at close to groove face normal $N'$ so that $\theta_b = \theta_i$, meaning
+\[\theta_b = \sin^{-1}\bigg( \frac{m\lambda}{2a}\bigg)\]
 
+\newblock
 
+\textbf{Normal Incidence:} incident light along the normal $N$ to the grating itself, so $\theta_i = 0$ and $\theta_b = \frac{-\theta_m}{2}$ giving,
 
+\[\theta_b = \frac{1}{2}\sin^{-1}\bigg(\frac{m \lambda}{a}\bigg)\]
 
+\lo{Determine whether one is in the Fresnel limit or the Fraunhofer (far-field) limit}
 
+The diffraction pattern is essentially an image of the aperture, but the edges are fringes. \textbf{Fresnel diffraction} considers \textbf{spherical wavefronts}. This means that the source is close to the aperture, and observation point is close to the aperture.
 
+\newblock
 
+To see what kind of diffraction we have is determined by $d$ the distance of the source we are observing, $A$ area of the aperture:
 
+\begin{itemize}
+    \item Fresnel (near-field) diffraction when we have 
+    \[d < \frac{A}{\lambda}\]
+    \item Fraunhofer (far-field) diffraction when 
+    \[d >> \frac{A}{\lambda}\]
+\end{itemize}
 
+\newpage
 
+\lo{ Determine the Fresnel zones included by an aperture}
 
+For a circular aperture, Frenel divided the circular aperture into circular zones with spacing of $\frac{\lambda}{2}$ further from point $P$ and zone area $S_n$. Each successive zone's contribution is exactly out of phase with the preceding one.
+
+\newblock
+
+At $P$, composite wave amplitude from $n$ half-period zones are
+
+\[A_n = a_1 - a_2 + a_3 - a_4 +a_5 + ... a_n\]
+
+So, for the total number of zones
+\begin{align*}
+    \text{For even $N$} \qquad & A_N \approx \frac{a_1}{2} - \frac{a_N}{2} \\
+    \text{For odd $N$} \qquad & A_N \approx \frac{a_1}{2} + \frac{a_N}{2}
+\end{align*}
+
+For a small number of $N$ $a_1 \approx a_N$
+\begin{align*}
+    \text{For even $N$} \qquad & A_N \approx 0 \\
+    \text{For odd $N$} \qquad & A_N \approx a_1 
+\end{align*}
+If there is a large number of $N$m then $a_N \approx 0$, leading to 
+\[A_N \approx \frac{a_1}{2}\]
+
+\textit{Note: $N$ is total number of zones.}
+
+\newblock
+
+\pic{.6}{circ-approx.png}
+\newpage
+\lo{Compute the focal length and on-axis irradiance for a Fresnel zone plate. Use Babinet’s principle to determine the diffraction pattern of an aperture, given the pattern for its complement.}
+
+If the negative or positive terms are eliminated, then the amplitude $A_N$ and consequently $I_R$ could be quite large. The Fresnel zone plate blocks every other zone in the wavefront.
+
+\pic{.7}{plate.png} \pic{.7}{plate-def.png}
+
+To find the radii required to make the zones half-period zones relative to the fixed point $P$ (look at diagram above) can be found by 
+\[R_N \approx \sqrt{n \cdot r_0 \cdot \lambda}\]
+$n$ here means the zone, $r_0$ seems to be the distance from point $P$ to the center of the Fresnel Zone plate, or its the first aperture?
+
+\newblock
+
+The first focal length (at $n = 1$) is 
+\[r_0 = f_1 = \frac{R_1^2}{\lambda}\]
+
+\textbf{Babinet's Principle} is when we have complementary apertures which makes the clear and opaque regions are reversed. If $A$ is a complementary aperture of $B$, then the sum of the amplitudes from the obstruction $A$ and the obstruction $B$ must equal the unobstructed amplitude
+\[E_A + E_B = E_u\]
+
+\newpage
+
+\lo{Explain quantitatively the principles of off-axis holography}
+\textbf{Hologram:} A hologram reconstructs the wavefront to provide depth perception and parallax. It uses interference of light to convert phase info into amplitude info by creating an interference pattern.
+
+\newblock
+
+\lo{Explain quantitatively the principles of off-axis holography}
+
+\pic{.5}{holo.png}
+
+Here $E_R$ is the reference beam, and $E_S$ is the subject beam. The subject beam reflects diffusely from the subject and $E_R$ and $E_S$ interfere on the film to produce the hologram.
+
+\newblock
+
+\pic{.5}{holo1.png}
+
+$E_H$ is there emerging beam and its proportional to the resultant intensity on the film $I_F$ multiplied by the $E_R$ the reference beam. The first term is the incident of light, the second is the subject beam, modulated in amplitude by the reference beam.
+
+\newpage
+
+\lo{Apply the Bragg equation to determine properties of a volume hologram}
+
+Interference surfaces are a 3D grating. These reproduce images in the original colors when illuminated with white light.
+
+\newblock
+
+To reconstruct this hologram, we illuminate with white light and only the $\lambda$ used to create the hologram is reinforced by multiple reflections.
+
+\newblock
+
+\pic{1}{bragg.png}
+
+At a given angle $\theta$, only a single $\lambda$ satisfies the Bragg equation locally
+
+\[m\lambda = 2d\sin(\theta)\]
+
+The Bragg equation is a fundamental relationship in X-ray crystallography that describes the conditions under which constructive interference of X-rays occurs when they are scattered by a crystal lattice.
+
+\newblock
+
+\lo{To describe the processes of absorption, spontaneous emission, and stimulated emission and their rates in terms of Einstein's A and B coefficients}
+
+\pic{.5}{lazy.png}
+
+\newpage
+
+\lo{To describe the processes of absorption, spontaneous emission, and stimulated emission and their rates in terms of Einstein's A and B coefficients}
+
+\pic{.5}{lazy2.png}
+
+\lo{Explain the operation of a 3-level laser}
+\pic{.5}{lazy-3.png}
+
+The Lasing Cycle:
+\begin{enumerate}
+    \item (Pump the system) We pump the electrons. They're energized from the ground state to an upper energy level.
+    \item A fast decay from $E_3$ to $E_2$ (the electrons gave a short lifetime in $E_3$). The upper laser level $E_2$ has a long lifetime (thisis called a metastable state).
+    \item (The Lasing) An incoming photon with energy $h \nu = E_2 - E_1$ is stimulated. The emission of a photon by extracting the electron energy in $E_2$ by moving the electron to $E_1$. Now, we have two photons with $h \nu$ our light has been amplified!
+    \item Finally, the electron decays to a lower laser level $E_1$ to the ground state, and it's ready to go again!
+\end{enumerate}
+\newpage
+Included my laser for some extra context
+\pic{.2}{my-laser.jpeg}
+
+Some context on population inversion is when there are electrons that are in a laser medium and the are in a high energy state (excited state) rather than the ground state. This inverted distribution of energy levels allows the process of simulated emission to dominate over absorption leading to the application of light.
+
+\pic{.7}{laZZY.png}
 \end{document}
+
